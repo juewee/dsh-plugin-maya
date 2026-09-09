@@ -40,6 +40,19 @@ Offline scrape of the Autodesk Maya CHS Tech-Docs: **2020 / 2022 / 2025**, ~1500
 
 Commands marked `isMelScript` are MEL scripts wrapped for Python — they work through `cmds` but may behave differently. Some entries carry `HTTP 404`: the command exists but has no Python-specific doc page.
 
+### When the offline docs are not enough
+
+For a release the corpus lacks (verified 2020–2026), a command that 404'd, or an example longer than the crawler's 3000-character cap, read the live official page:
+
+```
+https://help.autodesk.com/cloudhelp/<VERSION>/<LANG>/Maya-Tech-Docs/CommandsPython/<command>.html
+```
+
+- `<LANG>`: `CHS` or `ENU` (`ENG` is a 404).
+- The page's `<h2>` sections are Synopsis · Return value · Related · Flags · Python examples. The nav bar also says "Python examples", so anchor on the `<h2>` / `name="hExamples"`, not the first text match.
+- Examples are the `<pre>` blocks in that section; quote them verbatim and cite the URL.
+- Details, boilerplate to strip and a runnable one-liner: `docs/data.md` in the plugin repo.
+
 ## Running in a live Maya (`maya_cmd`)
 
 The command port must be open in Maya:

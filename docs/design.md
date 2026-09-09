@@ -241,6 +241,10 @@ CI-runnable.
 - **No browser bridge.** The upstream `ws-maya-proxy.js` + control HTML page were not
   ported: the model drives Maya through the tool pipeline instead.
 - **No crawler.** Refreshing the corpus is `scripts/sync-docs.mjs` against a
-  `maya-doc` checkout; scraping Autodesk is a separate, network-bound concern.
+  `maya-doc` checkout; scraping Autodesk is a separate, network-bound concern. When a
+  command or release is missing, the *agent* reads the live page with its own web tool —
+  the URL pattern, page structure and extraction rules are documented in
+  [data.md](data.md#reading-the-live-official-page). The plugin itself never touches the
+  network.
 - **No viewport capture.** A `maya_playblast` tool returning an image would close the
   visual loop; it is the most valuable next addition.

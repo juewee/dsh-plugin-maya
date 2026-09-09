@@ -76,6 +76,89 @@ The script locates every `maya-<version>-api-doc` directory inside the checkout
 `MANIFEST.json` with command counts, byte sizes and a timestamp. To regenerate the
 scrape itself, use the crawler in the `maya-doc` repository.
 
+## Reading the live official page
+
+The corpus is a snapshot. When you need a release it does not contain, a command that
+404'd, or an example longer than the crawler's 3000-character cap, read the live Autodesk
+page instead. This is an **agent-side fallback**, not a plugin tool: the plugin stays
+offline and deterministic, and the model uses its own web tool when it is available.
+
+### URL pattern
+
+```
+https://help.autodesk.com/cloudhelp/<VERSION>/<LANG>/Maya-Tech-Docs/CommandsPython/<command>.html
+```
+
+| Part | Values |
+|---|---|
+| `<VERSION>` | `2020` … `2026` all verified reachable (same pattern for other releases) |
+| `<LANG>` | `CHS` (Chinese — what this corpus was scraped from) or `ENU` (English); `ENG` returns 404 |
+| `<command>` | command name without the `cmds.` prefix, e.g. `polyCube` |
+
+Discovery index for one release (every command, used by the upstream crawler):
+
+```
+https://help.autodesk.com/cloudhelp/<VERSION>/CHS/Maya-Tech-Docs/Commands/index_all.html
+```
+
+### Page structure
+
+The body has five `<h2>` sections in this order:
+**Synopsis · Return value · Related · Flags · Python examples**.
+
+The navigation bar near the top *also* contains the literal text "Python examples", so
+anchor on the `<h2>` (or on `name="hExamples"`) rather than on the first text match —
+that is the single most common extraction bug.
+
+- **Examples** — the `<pre>` blocks inside the "Python examples" `<h2>` section.
+- **Synopsis** — the `<p id="synopsis">` signature (which lists every flag) plus the
+  following `<p>` blocks, minus boilerplate.
+- **Boilerplate to drop** — `Note: Strings representing object names and arguments must be
+  separated by commas.`, `This is not depicted in the synopsis.`, and
+  `<command> is (NOT) undoable`.
+
+### Verified extraction (2026-09-09)
+
+Fetching `CHS/2025/CommandsPython/polyCube.html` returned HTTP 200, 24 600 characters,
+five `<h2>` sections and one `<pre>` block:
+
+```python
+import maya.cmds as cmds
+
+cmds.polyCube( sx=10, sy=15, sz=5, h=20 )
+#result is a 20 units height rectangular box
+#with 10 subdivisions along X, 15 along Y and 20 along Z.
+
+cmds.polyCube( sx=5, sy=5, sz=5 )
+#result has 5 subdivisions along all directions, default size
+
+# query the width of a cube
+w = cmds.polyCube( 'polyCube1', q=True, w=True )
+```
+
+The same page yields the synopsis signature:
+
+```
+polyCube([axis=[linear, linear, linear]], [caching=boolean], ... [width=linear])
+```
+
+### Recipe
+
+1. Ask `maya_doc_get` first. If the command is there with an example, stop — the corpus
+   is enough and needs no network.
+2. Otherwise fetch the URL above (about 24 KB of HTML, well inside tool limits).
+3. Extract with the rules above; a regex over `<h2>` and `<pre>` is enough, no DOM library
+   is required.
+4. Quote the official example **verbatim** and cite the URL in the delivered script.
+5. If the page 404s too, the command may be MEL-only or renamed: check `maya_doc_search`
+   for a rename and `index_all.html` for the release you target.
+
+Runnable one-liner (Node 20+, no dependencies) for a terminal:
+
+```powershell
+node -e "const u='https://help.autodesk.com/cloudhelp/2025/CHS/Maya-Tech-Docs/CommandsPython/polyCube.html';fetch(u).then(r=>r.text()).then(h=>{const s=h.slice(h.search(/<h2[^>]*>\s*<a[^>]*hExamples/i));const t=s.slice(s.indexOf('</h2>')+5);const sec=t.slice(0,t.search(/<h2|<hr\b/i));for(const m of sec.matchAll(/<pre[^>]*>([\s\S]*?)<\/pre>/gi))console.log(m[1].replace(/<[^>]+>/g,'').trim())})"
+```
+
 ## How the tools read it
 
 `lib/maya-docs.js` parses each requested version once per process into two Maps and
