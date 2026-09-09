@@ -1,0 +1,8 @@
+# Normalize all text files to LF in the repository so the plugin, skills and
+# test harness behave identically on Windows, macOS and Linux.
+* text=auto eol=lf
+
+# Generated / binary-ish assets that must not be normalized.
+*.png binary
+*.jpg binary
+*.zip binary

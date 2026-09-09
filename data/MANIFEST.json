@@ -1,0 +1,24 @@
+{
+  "source": "D:\\losheep\\project\\AI\\dsh-work-table\\maya-doc",
+  "syncedAt": "2026-09-09T15:33:55.374Z",
+  "versions": [
+    {
+      "version": "2020",
+      "commands": 1499,
+      "indexed": 1499,
+      "bytes": 1308869
+    },
+    {
+      "version": "2022",
+      "commands": 1503,
+      "indexed": 1503,
+      "bytes": 1318977
+    },
+    {
+      "version": "2025",
+      "commands": 1521,
+      "indexed": 1521,
+      "bytes": 1337710
+    }
+  ]
+}

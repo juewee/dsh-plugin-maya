@@ -1,0 +1,58 @@
+{
+  "name": "dsh-plugin-maya",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin for Maya scripting: offline maya.cmds documentation, live Maya control over the command port, and headless mayapy verification.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "skills",
+    "data",
+    "scripts",
+    "docs",
+    "README.md",
+    "README.zh.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node test/smoke.mjs",
+    "sync-docs": "node scripts/sync-docs.mjs",
+    "install-skills": "node scripts/install-skills.mjs",
+    "enable": "node scripts/enable.mjs",
+    "link": "node scripts/link-dsh-modules.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis-plugin",
+    "maya",
+    "mayapy",
+    "maya.cmds",
+    "skills",
+    "agent-tools"
+  ],
+  "author": "juewee",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juewee/dsh-plugin-maya.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juewee/dsh-plugin-maya/issues"
+  },
+  "homepage": "https://github.com/juewee/dsh-plugin-maya#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@deepseek-ai/cordis": "^4.0.2",
+    "@deepseek-ai/dsh-system-prompt": "^0.1.2-rc.1",
+    "@deepseek-ai/dsh-tools": "^0.1.2-rc.1"
+  }
+}

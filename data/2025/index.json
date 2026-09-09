@@ -1,0 +1,7851 @@
+{
+  "about": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "addPrefixToName": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "affectedNet": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "affects": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "align": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "applicationName": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "assembly": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "bakePartialHistory": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "baseTemplate": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "baseView": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "color": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "colorIndex": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "colorManagementCatalog": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "colorManagementConvert": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "colorManagementFileRules": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "colorManagementPrefs": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "commandLogging": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "commandPort": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "container": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "containerAssignMaterial": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "containerAssignTemplate": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "containerAutobind": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "containerAutopublishRoot": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "containerBind": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "containerCreateBindingSet": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "containerDefaultBindingSet": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "containerProxy": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "containerPublish": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "containerRemoveBindingSet": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "containerRmbMenu": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "containerTemplate": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "containerView": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "createDisplayLayer": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "delete": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "deleteAllContainers": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "distanceDimension": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "doPublishNode": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "duplicate": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "editDisplayLayerGlobals": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "editDisplayLayerMembers": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "exactWorldBoundingBox": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "filterInstances": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "firstParentOf": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "getApplicationVersionAsFloat": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "getCurrentContainer": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "group": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "instance": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "instanceable": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "instancer": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "isParentOf": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "isSameObject": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "license": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "listNodesWithIncorrectNames": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "listSets": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "listTransforms": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "listUnselected": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "lockContainer": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "lockNode": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "longNameOf": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "ls": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "lsType": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "makeIdentity": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "makeLive": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "makePaintable": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "matchTransform": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "move": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "obsoleteProc": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "paramDimension": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "paramLocator": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "parent": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "partition": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "performanceOptions": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "pixelMove": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "plugAttr": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "plugMultiAttrs": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "plugNode": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "plugNodeStripped": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "publishAnchorNodes": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "publishContainerConnections": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "quit": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "rename": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "renameSelectionList": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "reorder": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "reorderContainer": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "rootOf": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "rotate": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "scale": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "scaleComponents": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "sceneLint": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "sets": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "shapeCompare": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "shortNameOf": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "snapMode": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "snapTogetherCtx": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "spaceLocator": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "stripPrefixFromName": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "suitePrefs": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "threadCount": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "toggleAxis": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "transformCompare": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "transformLimits": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "ungroup": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "upAxis": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "xform": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "xformConstraint": {
+    "category": "General",
+    "subcategory": "General Interest Utilities",
+    "isMelScript": true
+  },
+  "addAttr": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "addExtension": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "aliasAttr": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "applyAttrPattern": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "attributeExists": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "attributeInfo": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "attributeName": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "attributeQuery": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "connectAttr": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "connectionInfo": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "copyAttr": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "createAttrPatterns": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "createNode": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "cycleCheck": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "deleteAttr": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "deleteAttrPattern": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "deleteExtension": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "disconnectAttr": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "editAttrLimits": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "geometryAttrInfo": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "getAttr": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "getClassification": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "inheritTransform": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "isConnected": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "isDirty": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "listAttr": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "listAttrPatterns": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "listConnections": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "listHistory": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "listNodeTypes": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "listRelatives": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "nodeCast": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "nodeType": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "objectCenter": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "objectLayer": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "objectType": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "objExists": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "relationship": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "removeMultiInstance": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "renameAttr": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "setAttr": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "setCustomAttrEnumResource": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "setCustomAttrNiceNameResource": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "setState": {
+    "category": "General",
+    "subcategory": "Node Attributes",
+    "isMelScript": true
+  },
+  "currentUnit": {
+    "category": "General",
+    "subcategory": "Display Parameters",
+    "isMelScript": false
+  },
+  "curveRGBColor": {
+    "categories": [
+      {
+        "category": "General",
+        "subcategory": "Display Parameters"
+      },
+      {
+        "category": "Animation",
+        "subcategory": "Creating Animation and Manipulating Keyframes"
+      }
+    ],
+    "isMelScript": true
+  },
+  "displayAffected": {
+    "category": "General",
+    "subcategory": "Display Parameters",
+    "isMelScript": false
+  },
+  "displayColor": {
+    "category": "General",
+    "subcategory": "Display Parameters",
+    "isMelScript": false
+  },
+  "displayCull": {
+    "category": "General",
+    "subcategory": "Display Parameters",
+    "isMelScript": false
+  },
+  "displayLevelOfDetail": {
+    "category": "General",
+    "subcategory": "Display Parameters",
+    "isMelScript": false
+  },
+  "displayPref": {
+    "category": "General",
+    "subcategory": "Display Parameters",
+    "isMelScript": false
+  },
+  "displayRGBColor": {
+    "category": "General",
+    "subcategory": "Display Parameters",
+    "isMelScript": false
+  },
+  "displaySmoothness": {
+    "category": "General",
+    "subcategory": "Display Parameters",
+    "isMelScript": false
+  },
+  "displayStats": {
+    "category": "General",
+    "subcategory": "Display Parameters",
+    "isMelScript": false
+  },
+  "displaySurface": {
+    "category": "General",
+    "subcategory": "Display Parameters",
+    "isMelScript": true
+  },
+  "excludeObjectDisplayPreset": {
+    "category": "General",
+    "subcategory": "Display Parameters",
+    "isMelScript": true
+  },
+  "groupObjectsByName": {
+    "category": "General",
+    "subcategory": "Display Parameters",
+    "isMelScript": true
+  },
+  "hide": {
+    "category": "General",
+    "subcategory": "Display Parameters",
+    "isMelScript": true
+  },
+  "showHidden": {
+    "category": "General",
+    "subcategory": "Display Parameters",
+    "isMelScript": true
+  },
+  "timeCode": {
+    "category": "General",
+    "subcategory": "Display Parameters",
+    "isMelScript": false
+  },
+  "toggle": {
+    "category": "General",
+    "subcategory": "Display Parameters",
+    "isMelScript": false
+  },
+  "toggleDisplacement": {
+    "category": "General",
+    "subcategory": "Display Parameters",
+    "isMelScript": false
+  },
+  "weightsColor": {
+    "category": "General",
+    "subcategory": "Display Parameters",
+    "isMelScript": false
+  },
+  "expandedSelection": {
+    "category": "General",
+    "subcategory": "Picking/Selecting",
+    "isMelScript": false
+  },
+  "hilite": {
+    "category": "General",
+    "subcategory": "Picking/Selecting",
+    "isMelScript": false
+  },
+  "isolateSelect": {
+    "category": "General",
+    "subcategory": "Picking/Selecting",
+    "isMelScript": false
+  },
+  "pickWalk": {
+    "category": "General",
+    "subcategory": "Picking/Selecting",
+    "isMelScript": false
+  },
+  "select": {
+    "category": "General",
+    "subcategory": "Picking/Selecting",
+    "isMelScript": false
+  },
+  "selectedNodes": {
+    "category": "General",
+    "subcategory": "Picking/Selecting",
+    "isMelScript": false
+  },
+  "selectKey": {
+    "category": "General",
+    "subcategory": "Picking/Selecting",
+    "isMelScript": false
+  },
+  "selectMode": {
+    "category": "General",
+    "subcategory": "Picking/Selecting",
+    "isMelScript": false
+  },
+  "selectPref": {
+    "category": "General",
+    "subcategory": "Picking/Selecting",
+    "isMelScript": false
+  },
+  "selectPriority": {
+    "category": "General",
+    "subcategory": "Picking/Selecting",
+    "isMelScript": false
+  },
+  "selectType": {
+    "category": "General",
+    "subcategory": "Picking/Selecting",
+    "isMelScript": false
+  },
+  "softSelect": {
+    "category": "General",
+    "subcategory": "Picking/Selecting",
+    "isMelScript": false
+  },
+  "symmetricModelling": {
+    "category": "General",
+    "subcategory": "Picking/Selecting",
+    "isMelScript": false
+  },
+  "alignCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "arcLenDimContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "art3dPaintCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "artAttrCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "artAttrPaintVertexCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "artAttrSkinPaintCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "artAttrTool": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "artFluidAttrCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "artPuttyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "artSelectCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "artSetPaintCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "artUserPaintCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "boxDollyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "boxZoomCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "clipEditorCurrentTimeCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "contextInfo": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "ctxAbort": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "ctxCompletion": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "ctxEditMode": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "ctxTraverse": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "currentCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "currentTimeCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "curveAddPtCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "curveCVCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "curveEditorCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "curveEPCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "curveMoveEPCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "curveSketchCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "directKeyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "distanceDimContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "dollyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "dragAttrContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "draggerContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "dynParticleCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "filterButterworthCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "filterGaussianCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "filterKeyReducerCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "graphDollyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "graphSelectContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "graphTrackCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "ikHandleCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "ikSplineHandleCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "insertJointCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "insertKeyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "jointCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "keyframeRegionCurrentTimeCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "keyframeRegionDirectKeyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "keyframeRegionDollyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "keyframeRegionInsertKeyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "keyframeRegionMoveKeyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "keyframeRegionScaleKeyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "keyframeRegionSelectKeyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "keyframeRegionSetKeyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "keyframeRegionTrackCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "lassoContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "latticeDeformKeyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "manipMoveContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "manipMoveLimitsCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "manipRotateContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "manipRotateLimitsCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "manipScaleContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "manipScaleLimitsCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "modelCurrentTimeCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "moveKeyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "orbitCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "panZoomCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "paramDimContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "polyAppendFacetCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "polyCreaseCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "polyCreateFacetCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "polyCutCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "polyCutUVCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "polyMergeEdgeCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "polyMergeFacetCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "polySelectCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "polySelectEditCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "polyShortestPathCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "polySplitCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "polySplitCtx2": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "projectionContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "propModCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "regionSelectKeyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "rememberCtxSettings": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "renderWindowSelectContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "resetTool": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "retimeKeyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "rollCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "saveToolSettings": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "scaleKeyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "scriptCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "sculptKeyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "sculptMeshCacheChangeCloneSource": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "sculptMeshCacheCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "selectContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "selectKeyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "selectKeyframeRegionCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "setEditCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "setKeyCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "setToolTo": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "shadingGeometryRelCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "shadingLightRelCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "showManipCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "skinBindCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "softModCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "srtContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "targetWeldCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "texCutContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "texLatticeDeformContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "texManipContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "texMoveContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "texMoveUVShellContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "texRotateContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "texScaleContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "texSculptCacheContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "texSelectContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "texSelectShortestPathCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "texSmudgeUVContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "texturePlacementContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "texTweakUVContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "texWinToolCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "threePointArcCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "toolDropped": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "toolHasOptions": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "toolPropertyWindow": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "trackCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "tumbleCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "twoPointArcCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "userCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "view2dToolCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "walkCtx": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "wireContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "wrinkleContext": {
+    "category": "General",
+    "subcategory": "Interactive tools",
+    "isMelScript": false
+  },
+  "abs": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "angle": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "bessel": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "ceil": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "clamp": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "constrainValue": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "cos": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "cross": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "crossProduct": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "deg_to_rad": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "delrandstr": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "dot": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "dotProduct": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "equivalent": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "equivalentTol": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "erf": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "exp": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "floatEq": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "floor": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "fmod": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "gamma": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "gauss": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "getLastError": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "getProcArguments": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "hermite": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "hsv_to_rgb": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "hypot": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "linstep": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "log": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "mag": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "matrixUtil": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "max": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "maxfloat": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "maxint": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "min": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "minfloat": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "minint": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "noise": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "normalize": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "pointMatrixMult": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "pow": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "rad_to_deg": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": true
+  },
+  "rand": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": false
+  },
+  "randstate": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": false
+  },
+  "rgb_to_hsv": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": false
+  },
+  "rot": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": false
+  },
+  "seed": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": false
+  },
+  "sign": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": false
+  },
+  "sin": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": false
+  },
+  "smoothstep": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": false
+  },
+  "sphrand": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": false
+  },
+  "sqrt": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": false
+  },
+  "tan": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": false
+  },
+  "trunc": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": false
+  },
+  "unit": {
+    "category": "Language",
+    "subcategory": "MEL Math-Related Commands (abs, sqrt, etc.)",
+    "isMelScript": false
+  },
+  "appendStringArray": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "basenameEx": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "capitalizeString": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "clear": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "containsMultibyte": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "System",
+        "subcategory": "Localization Support"
+      }
+    ],
+    "isMelScript": true
+  },
+  "copyArray": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "encodeString": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "endString": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "endsWith": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "format": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "System",
+        "subcategory": "Localization Support"
+      }
+    ],
+    "isMelScript": true
+  },
+  "gmatch": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "interToUI": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "isValidString": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "match": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "nodeAttrJoin": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "size": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "sizeBytes": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "sort": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "sortCaseInsensitive": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "startString": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "startsWith": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "strcmp": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "stringAddPrefix": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "Language",
+        "subcategory": "Array Manipulation"
+      }
+    ],
+    "isMelScript": true
+  },
+  "stringArrayAddPrefix": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "Language",
+        "subcategory": "Array Manipulation"
+      }
+    ],
+    "isMelScript": true
+  },
+  "stringArrayCatenate": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "Language",
+        "subcategory": "Array Manipulation"
+      }
+    ],
+    "isMelScript": true
+  },
+  "stringArrayContains": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "Language",
+        "subcategory": "Array Manipulation"
+      }
+    ],
+    "isMelScript": true
+  },
+  "stringArrayCount": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "Language",
+        "subcategory": "Array Manipulation"
+      }
+    ],
+    "isMelScript": true
+  },
+  "stringArrayFind": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "Language",
+        "subcategory": "Array Manipulation"
+      }
+    ],
+    "isMelScript": true
+  },
+  "stringArrayInsertAtIndex": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "Language",
+        "subcategory": "Array Manipulation"
+      }
+    ],
+    "isMelScript": true
+  },
+  "stringArrayIntersection": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "Language",
+        "subcategory": "Array Manipulation"
+      }
+    ],
+    "isMelScript": true
+  },
+  "stringArrayIntersector": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "Language",
+        "subcategory": "Array Manipulation"
+      }
+    ],
+    "isMelScript": true
+  },
+  "stringArrayRemove": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "Language",
+        "subcategory": "Array Manipulation"
+      }
+    ],
+    "isMelScript": true
+  },
+  "stringArrayRemoveAtIndex": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "Language",
+        "subcategory": "Array Manipulation"
+      }
+    ],
+    "isMelScript": true
+  },
+  "stringArrayRemoveDuplicates": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "Language",
+        "subcategory": "Array Manipulation"
+      }
+    ],
+    "isMelScript": true
+  },
+  "stringArrayRemoveExact": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "Language",
+        "subcategory": "Array Manipulation"
+      }
+    ],
+    "isMelScript": true
+  },
+  "stringArrayRemovePrefix": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "Language",
+        "subcategory": "Array Manipulation"
+      }
+    ],
+    "isMelScript": true
+  },
+  "stringArrayReverse": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "Language",
+        "subcategory": "Array Manipulation"
+      }
+    ],
+    "isMelScript": true
+  },
+  "stringArrayToString": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "Language",
+        "subcategory": "Array Manipulation"
+      }
+    ],
+    "isMelScript": true
+  },
+  "stringRemovePrefix": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "Language",
+        "subcategory": "Array Manipulation"
+      }
+    ],
+    "isMelScript": true
+  },
+  "stringToStringArray": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL String-Related Commands (substr, catenation, etc.)"
+      },
+      {
+        "category": "Language",
+        "subcategory": "Array Manipulation"
+      }
+    ],
+    "isMelScript": true
+  },
+  "strip": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "substitute": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "substituteAllString": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "substring": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "tokenize": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "tokenizeList": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "tolower": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "toupper": {
+    "category": "Language",
+    "subcategory": "MEL String-Related Commands (substr, catenation, etc.)",
+    "isMelScript": true
+  },
+  "floatArrayContains": {
+    "category": "Language",
+    "subcategory": "Array Manipulation",
+    "isMelScript": true
+  },
+  "floatArrayCount": {
+    "category": "Language",
+    "subcategory": "Array Manipulation",
+    "isMelScript": true
+  },
+  "floatArrayFind": {
+    "category": "Language",
+    "subcategory": "Array Manipulation",
+    "isMelScript": true
+  },
+  "floatArrayInsertAtIndex": {
+    "category": "Language",
+    "subcategory": "Array Manipulation",
+    "isMelScript": true
+  },
+  "floatArrayRemove": {
+    "category": "Language",
+    "subcategory": "Array Manipulation",
+    "isMelScript": true
+  },
+  "floatArrayRemoveAtIndex": {
+    "category": "Language",
+    "subcategory": "Array Manipulation",
+    "isMelScript": true
+  },
+  "floatArrayToString": {
+    "category": "Language",
+    "subcategory": "Array Manipulation",
+    "isMelScript": true
+  },
+  "intArrayContains": {
+    "category": "Language",
+    "subcategory": "Array Manipulation",
+    "isMelScript": true
+  },
+  "intArrayCount": {
+    "category": "Language",
+    "subcategory": "Array Manipulation",
+    "isMelScript": true
+  },
+  "intArrayFind": {
+    "category": "Language",
+    "subcategory": "Array Manipulation",
+    "isMelScript": true
+  },
+  "intArrayInsertAtIndex": {
+    "category": "Language",
+    "subcategory": "Array Manipulation",
+    "isMelScript": true
+  },
+  "intArrayRemove": {
+    "category": "Language",
+    "subcategory": "Array Manipulation",
+    "isMelScript": true
+  },
+  "intArrayRemoveAtIndex": {
+    "category": "Language",
+    "subcategory": "Array Manipulation",
+    "isMelScript": true
+  },
+  "intArrayToString": {
+    "category": "Language",
+    "subcategory": "Array Manipulation",
+    "isMelScript": true
+  },
+  "assignCommand": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "callbacks": {
+    "categories": [
+      {
+        "category": "Language",
+        "subcategory": "MEL Scripts"
+      },
+      {
+        "category": "Rendering",
+        "subcategory": "General Rendering"
+      },
+      {
+        "category": "Windows",
+        "subcategory": "Miscellaneous UI"
+      }
+    ],
+    "isMelScript": true
+  },
+  "callPython": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "catch": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "catchQuiet": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "commandEcho": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "condition": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "connectControl": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "deleteUI": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "dimWhen": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "disable": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "eval": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "evalDeferred": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "evalEcho": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "evalNoSelectNotify": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "executeForEachObject": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "exists": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "formValidObjectName": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "isTrue": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "isValidObjectName": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "itemFilter": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "itemFilterAttr": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": true
+  },
+  "itemFilterType": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "lsUI": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "melOptions": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "objectTypeUI": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "optionVar": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "pause": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "print": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "python": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "refresh": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "renameUI": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "resourceManager": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "scriptJob": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "selectionConnection": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "setParent": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "setUITemplate": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "source": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "stackTrace": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "trace": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "uiTemplate": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "waitCursor": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "whatIs": {
+    "category": "Language",
+    "subcategory": "MEL Scripts",
+    "isMelScript": false
+  },
+  "addMetadata": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "applyMetadata": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "blindDataType": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "computePolysetVolume": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "dataStructure": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "editMetadata": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "geomToBBox": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "getMetadata": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "hasMetadata": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "manipOptions": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "manipPivot": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyAppend": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyAppendVertex": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyAutoProjection": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyAverageNormal": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyAverageVertex": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyAxis": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyBevel": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyBevel3": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyBlendColor": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyBlindData": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyBooleanCmd": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyBoolOp": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyBridgeEdge": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyCacheMonitor": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyCanBridgeEdge": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyCBoolOp": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyCheck": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyChipOff": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyCircularize": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyCircularizeEdge": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyCircularizeFace": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyClean": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyClipboard": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyCloseBorder": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyCollapseEdge": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyCollapseFacet": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyCollapseTweaks": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": true
+  },
+  "polyColorBlindData": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyColorDel": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyColorMod": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyColorPerVertex": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyColorSet": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyCompare": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyCone": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyConnectComponents": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyContourProjection": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyCopyUV": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyCrease": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyCreateFacet": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyCube": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyCut": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyCylinder": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyCylindricalProjection": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyDelEdge": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyDelFacet": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyDelVertex": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyDuplicateAndConnect": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyDuplicateEdge": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyEditEdgeFlow": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyEditUV": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyEditUVShell": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyEvaluate": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyExtrudeEdge": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyExtrudeFacet": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyExtrudeVertex": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyFlipEdge": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyFlipUV": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyForceUV": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyGeoSampler": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyHelix": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyHole": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyInfo": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyInstallAction": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyLayoutUV": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyListComponentConversion": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyMapCut": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyMapDel": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyMapSew": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyMapSewMove": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyMergeEdge": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyMergeFacet": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyMergeUV": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyMergeVertex": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyMirrorFace": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyMoveEdge": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyMoveFacet": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyMoveFacetUV": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyMoveUV": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyMoveVertex": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyMultiLayoutUV": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyNormal": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyNormalizeUV": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyNormalPerVertex": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyOptions": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyOptUvs": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyOutput": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyPinUV": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyPipe": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyPlanarProjection": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyPlane": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyPlatonicSolid": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyPoke": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyPrimitive": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyPrism": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyProjectCurve": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyProjection": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyPyramid": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyQuad": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyQueryBlindData": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyReduce": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyRemesh": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyRetopo": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polySelect": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polySelectConstraint": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polySelectConstraintMonitor": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polySeparate": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polySetToFaceNormal": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polySewEdge": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polySlideEdge": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polySmartExtrude": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polySmooth": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polySoftEdge": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polySphere": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polySphericalProjection": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polySplit": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polySplitEdge": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polySplitRing": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polySplitVertex": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyStraightenUVBorder": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polySubdivideEdge": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polySubdivideFacet": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyTorus": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyTransfer": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyTriangulate": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyUnite": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyUnsmooth": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyUVCoverage": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyUVOverlap": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyUVRectangle": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyUVSet": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyUVStackSimilarShells": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "polyWedgeFace": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "setXformManip": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "showMetadata": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "transferAttributes": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "transferShadingSets": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "unfold": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "untangleUV": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "uvSnapshot": {
+    "category": "Modeling",
+    "subcategory": "Polygon Meshes",
+    "isMelScript": false
+  },
+  "alignSurface": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "angleBetween": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "arubaNurbsToPoly": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "attachSurface": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "bevel": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "bevelPlus": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "bezierAnchorPreset": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "bezierAnchorState": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "bezierCurveToNurbs": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "bezierInfo": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "blend2": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "boundary": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "canCreateManip": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "circularFillet": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "closeSurface": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "cone": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "constructionHistory": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "cylinder": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "detachSurface": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "doubleProfileBirailSurface": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "duplicateSurface": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "extendSurface": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "extrude": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "filterExpand": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "freeFormFillet": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "globalStitch": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "grid": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "insertKnotSurface": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "intersect": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "loft": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "makeSingleSurface": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "moveVertexAlongDirection": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "multiProfileBirailSurface": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "nurbsBoolean": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "nurbsCopyUVSet": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "nurbsCube": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": false
+  },
+  "nurbsCurveToBezier": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "nurbsEditUV": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "nurbsPlane": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "nurbsSelect": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "nurbsToPoly": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "nurbsToPolygonsPref": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "nurbsUVSet": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "nurbsViewDirectionVector": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "offsetSurface": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "planarSrf": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "plane": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "pointOnSurface": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "pointPosition": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "projectCurve": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "propMove": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "rebuildSurface": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "reverseSurface": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "revolve": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "roundConstantRadius": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "singleProfileBirailSurface": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "smoothTangentSurface": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "snap2to2": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "sphere": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "squareSurface": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "stitchAndExplodeShell": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "stitchSurface": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "stitchSurfacePoints": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "surface": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "tolerance": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "torus": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "trim": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "untrim": {
+    "category": "Modeling",
+    "subcategory": "NURBS Surfaces",
+    "isMelScript": true
+  },
+  "alignCurve": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": false
+  },
+  "arclen": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": false
+  },
+  "arcLengthDimension": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": false
+  },
+  "attachCurve": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": false
+  },
+  "circle": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": false
+  },
+  "closeCurve": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": false
+  },
+  "curve": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": false
+  },
+  "curveIntersect": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": false
+  },
+  "curveOnSurface": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "detachCurve": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "duplicateCurve": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "extendCurve": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "filletCurve": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "findAllIntersections": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "fitBspline": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "hardenPointCurve": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "illustratorCurves": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "insertKnotCurve": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "lineIntersection": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "nurbsSquare": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "offsetCurve": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "offsetCurveOnSurface": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "pointCurveConstraint": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "pointOnCurve": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "projectTangent": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "rebuildCurve": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "reverseCurve": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "selectCurveCV": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "smoothCurve": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "textCurves": {
+    "category": "Modeling",
+    "subcategory": "Curve commands",
+    "isMelScript": true
+  },
+  "changeSubdivComponentDisplayLevel": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "changeSubdivRegion": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "coarsenSubdivSelectionList": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "createSubdivRegion": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "nurbsToSubdiv": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "nurbsToSubdivPref": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "polyToSubdiv": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "querySubdiv": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "refineSubdivSelectionList": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "subdAutoProjection": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "subdCleanTopology": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "subdCollapse": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "subdDuplicateAndConnect": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "subdEditUV": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "subdiv": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "subdivCrease": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "subdivDisplaySmoothness": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "subdLayoutUV": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "subdListComponentConversion": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "subdMapCut": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "subdMapSewMove": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "subdMatchTopology": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "subdMirror": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "subdPlanarProjection": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "subdToBlind": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "subdToPoly": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "subdTransferUVsToCache": {
+    "category": "Modeling",
+    "subcategory": "Subdivision Surfaces",
+    "isMelScript": false
+  },
+  "advanceToNextDrivenKey": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "animCurveEditor": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "animDisplay": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "animLayer": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "animView": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "autoKeyframe": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "backgroundEvaluationManager": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "bakeClip": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "bakeResults": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "bakeSimulation": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "blendTwoAttr": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "bufferCurve": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "buildBookmarkMenu": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "buildKeyframeMenu": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "cacheEvaluator": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "character": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "characterMap": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "choice": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "clip": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "clipEditor": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "clipMatching": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "clipSchedule": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "clipSchedulerOutliner": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "clipTrimBefore": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "controller": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "copyKey": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "currentTime": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "cutKey": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "deformerEvaluator": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "dopeSheetEditor": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "evaluationManager": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "evaluator": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "filterCurve": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "findAnimCurves": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "findKeyframe": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "flow": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "freeze": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "freezeOptions": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "ghosting": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "hikGlobals": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "isAnimCurve": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "keyframe": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "keyframeOutliner": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "keyframeStats": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "keyframeTangentControl": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "keyingGroup": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "keyTangent": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "listAnimatable": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "makeRoll": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "marker": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "mimicManipulation": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "movieInfo": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "mute": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "nextOrPreviousFrame": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "pairBlend": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "pasteKey": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "pathAnimation": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "play": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "playbackOptions": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "playblast": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "pose": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "rotationInterpolation": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "scaleKey": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "sceneTimeWarp": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "sequenceManager": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "setDrivenKeyframe": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "setInfinity": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "setKeyframe": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": true
+  },
+  "setKeyframeBlendshapeTargetWts": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "setKeyPath": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "shot": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "shotRipple": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "simplify": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "snapKey": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "snapshot": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "snapshotBeadCtx": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "snapshotModifyKeyCtx": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "sound": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "timeEditor": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "timeEditorAnimSource": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "timeEditorBakeClips": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "timeEditorClip": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "timeEditorClipLayer": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "timeEditorClipOffset": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "timeEditorComposition": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "timeEditorPanel": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "timeEditorTracks": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "timeWarp": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "ubercam": {
+    "category": "Animation",
+    "subcategory": "Creating Animation and Manipulating Keyframes",
+    "isMelScript": false
+  },
+  "bakeDeformer": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "blendShape": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "blendShapeEditor": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "blendShapePanel": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "cluster": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "combinationShape": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "componentTag": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "copyDeformerWeights": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "deformableShape": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "deformer": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": true
+  },
+  "deformerWeights": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": true
+  },
+  "deltaMush": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": true
+  },
+  "dropoffLocator": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": true
+  },
+  "findDeformers": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": true
+  },
+  "findRelatedDeformer": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": true
+  },
+  "getAllChains": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": true
+  },
+  "getChain": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": true
+  },
+  "lattice": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": true
+  },
+  "mlDeformer": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "nonLinear": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "percent": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "poseEditor": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "posePanel": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "proximityWrap": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "reorderDeformers": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "sculpt": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "sculptTarget": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "shapeEditor": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "shapePanel": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "softMod": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "substituteGeometry": {
+    "categories": [
+      {
+        "category": "Animation",
+        "subcategory": "Object Deformation"
+      },
+      {
+        "category": "Animation",
+        "subcategory": "Skinning"
+      }
+    ],
+    "isMelScript": false
+  },
+  "tension": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "textureDeformer": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "wire": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "wrinkle": {
+    "category": "Animation",
+    "subcategory": "Object Deformation",
+    "isMelScript": false
+  },
+  "bindSkin": {
+    "category": "Animation",
+    "subcategory": "Skinning",
+    "isMelScript": false
+  },
+  "boneLattice": {
+    "category": "Animation",
+    "subcategory": "Skinning",
+    "isMelScript": false
+  },
+  "copyFlexor": {
+    "category": "Animation",
+    "subcategory": "Skinning",
+    "isMelScript": false
+  },
+  "copySkinWeights": {
+    "category": "Animation",
+    "subcategory": "Skinning",
+    "isMelScript": false
+  },
+  "dagPose": {
+    "category": "Animation",
+    "subcategory": "Skinning",
+    "isMelScript": false
+  },
+  "findRelatedSkinCluster": {
+    "category": "Animation",
+    "subcategory": "Skinning",
+    "isMelScript": true
+  },
+  "flexor": {
+    "category": "Animation",
+    "subcategory": "Skinning",
+    "isMelScript": true
+  },
+  "geomBind": {
+    "category": "Animation",
+    "subcategory": "Skinning",
+    "isMelScript": true
+  },
+  "gotoBindPose": {
+    "category": "Animation",
+    "subcategory": "Skinning",
+    "isMelScript": true
+  },
+  "jointLattice": {
+    "category": "Animation",
+    "subcategory": "Skinning",
+    "isMelScript": true
+  },
+  "polyUniteSkinned": {
+    "category": "Animation",
+    "subcategory": "Skinning",
+    "isMelScript": false
+  },
+  "skeletonEmbed": {
+    "category": "Animation",
+    "subcategory": "Skinning",
+    "isMelScript": false
+  },
+  "skinCluster": {
+    "category": "Animation",
+    "subcategory": "Skinning",
+    "isMelScript": false
+  },
+  "skinPercent": {
+    "category": "Animation",
+    "subcategory": "Skinning",
+    "isMelScript": false
+  },
+  "volumeBind": {
+    "category": "Animation",
+    "subcategory": "Skinning",
+    "isMelScript": false
+  },
+  "aimConstraint": {
+    "category": "Animation",
+    "subcategory": "Constraints",
+    "isMelScript": false
+  },
+  "geometryConstraint": {
+    "category": "Animation",
+    "subcategory": "Constraints",
+    "isMelScript": false
+  },
+  "normalConstraint": {
+    "category": "Animation",
+    "subcategory": "Constraints",
+    "isMelScript": false
+  },
+  "orientConstraint": {
+    "category": "Animation",
+    "subcategory": "Constraints",
+    "isMelScript": false
+  },
+  "parentConstraint": {
+    "category": "Animation",
+    "subcategory": "Constraints",
+    "isMelScript": false
+  },
+  "pointConstraint": {
+    "category": "Animation",
+    "subcategory": "Constraints",
+    "isMelScript": false
+  },
+  "pointOnPolyConstraint": {
+    "category": "Animation",
+    "subcategory": "Constraints",
+    "isMelScript": true
+  },
+  "scaleConstraint": {
+    "category": "Animation",
+    "subcategory": "Constraints",
+    "isMelScript": true
+  },
+  "setConstraintRestPosition": {
+    "category": "Animation",
+    "subcategory": "Constraints",
+    "isMelScript": true
+  },
+  "tangentConstraint": {
+    "category": "Animation",
+    "subcategory": "Constraints",
+    "isMelScript": false
+  },
+  "characterize": {
+    "category": "Animation",
+    "subcategory": "Joints, Handles, and Skeletons",
+    "isMelScript": false
+  },
+  "connectJoint": {
+    "category": "Animation",
+    "subcategory": "Joints, Handles, and Skeletons",
+    "isMelScript": false
+  },
+  "disconnectJoint": {
+    "category": "Animation",
+    "subcategory": "Joints, Handles, and Skeletons",
+    "isMelScript": false
+  },
+  "effector": {
+    "category": "Animation",
+    "subcategory": "Joints, Handles, and Skeletons",
+    "isMelScript": false
+  },
+  "ikfkDisplayMethod": {
+    "category": "Animation",
+    "subcategory": "Joints, Handles, and Skeletons",
+    "isMelScript": false
+  },
+  "ikHandle": {
+    "category": "Animation",
+    "subcategory": "Joints, Handles, and Skeletons",
+    "isMelScript": false
+  },
+  "ikHandleDisplayScale": {
+    "category": "Animation",
+    "subcategory": "Joints, Handles, and Skeletons",
+    "isMelScript": false
+  },
+  "ikSolver": {
+    "category": "Animation",
+    "subcategory": "Joints, Handles, and Skeletons",
+    "isMelScript": false
+  },
+  "ikSystem": {
+    "category": "Animation",
+    "subcategory": "Joints, Handles, and Skeletons",
+    "isMelScript": false
+  },
+  "ikSystemInfo": {
+    "category": "Animation",
+    "subcategory": "Joints, Handles, and Skeletons",
+    "isMelScript": false
+  },
+  "insertJoint": {
+    "category": "Animation",
+    "subcategory": "Joints, Handles, and Skeletons",
+    "isMelScript": false
+  },
+  "joint": {
+    "category": "Animation",
+    "subcategory": "Joints, Handles, and Skeletons",
+    "isMelScript": false
+  },
+  "jointCluster": {
+    "category": "Animation",
+    "subcategory": "Joints, Handles, and Skeletons",
+    "isMelScript": false
+  },
+  "jointDisplayScale": {
+    "category": "Animation",
+    "subcategory": "Joints, Handles, and Skeletons",
+    "isMelScript": false
+  },
+  "mirrorJoint": {
+    "category": "Animation",
+    "subcategory": "Joints, Handles, and Skeletons",
+    "isMelScript": false
+  },
+  "moveIKtoFK": {
+    "category": "Animation",
+    "subcategory": "Joints, Handles, and Skeletons",
+    "isMelScript": true
+  },
+  "poleVectorConstraint": {
+    "category": "Animation",
+    "subcategory": "Joints, Handles, and Skeletons",
+    "isMelScript": true
+  },
+  "removeJoint": {
+    "category": "Animation",
+    "subcategory": "Joints, Handles, and Skeletons",
+    "isMelScript": true
+  },
+  "reroot": {
+    "category": "Animation",
+    "subcategory": "Joints, Handles, and Skeletons",
+    "isMelScript": true
+  },
+  "applyTake": {
+    "category": "Animation",
+    "subcategory": "Motion Capture",
+    "isMelScript": false
+  },
+  "defineDataServer": {
+    "category": "Animation",
+    "subcategory": "Motion Capture",
+    "isMelScript": false
+  },
+  "defineVirtualDevice": {
+    "category": "Animation",
+    "subcategory": "Motion Capture",
+    "isMelScript": false
+  },
+  "deviceManager": {
+    "category": "Animation",
+    "subcategory": "Motion Capture",
+    "isMelScript": false
+  },
+  "enableDevice": {
+    "category": "Animation",
+    "subcategory": "Motion Capture",
+    "isMelScript": false
+  },
+  "filter": {
+    "category": "Animation",
+    "subcategory": "Motion Capture",
+    "isMelScript": false
+  },
+  "movIn": {
+    "category": "Animation",
+    "subcategory": "Motion Capture",
+    "isMelScript": false
+  },
+  "movOut": {
+    "category": "Animation",
+    "subcategory": "Motion Capture",
+    "isMelScript": false
+  },
+  "readTake": {
+    "category": "Animation",
+    "subcategory": "Motion Capture",
+    "isMelScript": false
+  },
+  "recordDevice": {
+    "category": "Animation",
+    "subcategory": "Motion Capture",
+    "isMelScript": false
+  },
+  "writeTake": {
+    "category": "Animation",
+    "subcategory": "Motion Capture",
+    "isMelScript": false
+  },
+  "bluePencilDrawCtx": {
+    "category": "Animation",
+    "subcategory": "Animation",
+    "isMelScript": false
+  },
+  "bluePencilFrame": {
+    "category": "Animation",
+    "subcategory": "Animation",
+    "isMelScript": false
+  },
+  "bluePencilLayer": {
+    "category": "Animation",
+    "subcategory": "Animation",
+    "isMelScript": false
+  },
+  "bluePencilNode": {
+    "category": "Animation",
+    "subcategory": "Animation",
+    "isMelScript": false
+  },
+  "bluePencilStroke": {
+    "category": "Animation",
+    "subcategory": "Animation",
+    "isMelScript": false
+  },
+  "bluePencilUtil": {
+    "category": "Animation",
+    "subcategory": "Animation",
+    "isMelScript": false
+  },
+  "addFrameRenderCallback": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "assignViewportFactories": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "batchRender": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "binMembership": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "checkDefaultRenderGlobals": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "convertSolidTx": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "convertTessellation": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "deleteShadingGroupsAndMaterials": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "displacementToPoly": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "doBlur": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "getRenderDependencies": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "getRenderTasks": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "glRender": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "glRenderEditor": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "hwReflectionMap": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "hwRender": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "hwRenderLoad": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "iprEngine": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "layeredShaderPort": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "layeredTexturePort": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "lsThroughFilter": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "makebot": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "mayaHasRenderSetup": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "nodeIconButton": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "nodePreset": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "ogsRender": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "preferredRenderer": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "prepareRender": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "projectionManip": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "rampColorPort": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "render": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "renderer": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "renderGlobalsNode": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "renderInfo": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "renderManip": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "renderPartition": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "renderQualityNode": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "renderSettings": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "renderThumbnailUpdate": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "renderWindowEditor": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "resolutionNode": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "sampleImage": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "setDefaultShadingGroup": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "shadingConnection": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": false
+  },
+  "shadingNetworkCompare": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "shadingNode": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "showShadingGroupAttrEditor": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "soloMaterial": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "surfaceSampler": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "surfaceShaderList": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "swatchRefresh": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "textureDisplacePlane": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "textureWindow": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "uvLink": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "vectorize": {
+    "category": "Rendering",
+    "subcategory": "General Rendering",
+    "isMelScript": true
+  },
+  "allViewFit": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": true
+  },
+  "camera": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": true
+  },
+  "cameraSet": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": true
+  },
+  "cameraView": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": true
+  },
+  "dolly": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": true
+  },
+  "imagePlane": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": true
+  },
+  "listCameras": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": false
+  },
+  "lookThru": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": false
+  },
+  "orbit": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": false
+  },
+  "panZoom": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": false
+  },
+  "perCameraVisibility": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": false
+  },
+  "roll": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": false
+  },
+  "stereoCameraView": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": false
+  },
+  "stereoRigManager": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": false
+  },
+  "track": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": false
+  },
+  "tumble": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": false
+  },
+  "viewCamera": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": false
+  },
+  "viewClipPlane": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": false
+  },
+  "viewFit": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": false
+  },
+  "viewHeadOn": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": false
+  },
+  "viewLookAt": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": false
+  },
+  "viewPlace": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": false
+  },
+  "viewSet": {
+    "category": "Rendering",
+    "subcategory": "Camera Manipulation",
+    "isMelScript": false
+  },
+  "convertIffToPsd": {
+    "category": "Rendering",
+    "subcategory": "Render Layer and Pass Management",
+    "isMelScript": false
+  },
+  "createLayeredPsdFile": {
+    "category": "Rendering",
+    "subcategory": "Render Layer and Pass Management",
+    "isMelScript": false
+  },
+  "createRenderLayer": {
+    "category": "Rendering",
+    "subcategory": "Render Layer and Pass Management",
+    "isMelScript": false
+  },
+  "editRenderLayerAdjustment": {
+    "category": "Rendering",
+    "subcategory": "Render Layer and Pass Management",
+    "isMelScript": false
+  },
+  "editRenderLayerGlobals": {
+    "category": "Rendering",
+    "subcategory": "Render Layer and Pass Management",
+    "isMelScript": false
+  },
+  "editRenderLayerMembers": {
+    "category": "Rendering",
+    "subcategory": "Render Layer and Pass Management",
+    "isMelScript": false
+  },
+  "frameBufferName": {
+    "category": "Rendering",
+    "subcategory": "Render Layer and Pass Management",
+    "isMelScript": false
+  },
+  "psdChannelOutliner": {
+    "category": "Rendering",
+    "subcategory": "Render Layer and Pass Management",
+    "isMelScript": false
+  },
+  "psdEditTextureFile": {
+    "category": "Rendering",
+    "subcategory": "Render Layer and Pass Management",
+    "isMelScript": false
+  },
+  "psdExport": {
+    "category": "Rendering",
+    "subcategory": "Render Layer and Pass Management",
+    "isMelScript": false
+  },
+  "psdTextureFile": {
+    "category": "Rendering",
+    "subcategory": "Render Layer and Pass Management",
+    "isMelScript": true
+  },
+  "renderLayerParent": {
+    "category": "Rendering",
+    "subcategory": "Render Layer and Pass Management",
+    "isMelScript": true
+  },
+  "renderLayerPostProcess": {
+    "category": "Rendering",
+    "subcategory": "Render Layer and Pass Management",
+    "isMelScript": true
+  },
+  "renderLayerUnparent": {
+    "category": "Rendering",
+    "subcategory": "Render Layer and Pass Management",
+    "isMelScript": true
+  },
+  "renderPassRegistry": {
+    "category": "Rendering",
+    "subcategory": "Render Layer and Pass Management",
+    "isMelScript": true
+  },
+  "setRenderPassType": {
+    "category": "Rendering",
+    "subcategory": "Render Layer and Pass Management",
+    "isMelScript": false
+  },
+  "ambientLight": {
+    "category": "Rendering",
+    "subcategory": "Lighting",
+    "isMelScript": false
+  },
+  "defaultLightListCheckBox": {
+    "category": "Rendering",
+    "subcategory": "Lighting",
+    "isMelScript": false
+  },
+  "directionalLight": {
+    "category": "Rendering",
+    "subcategory": "Lighting",
+    "isMelScript": false
+  },
+  "exclusiveLightCheckBox": {
+    "category": "Rendering",
+    "subcategory": "Lighting",
+    "isMelScript": false
+  },
+  "lightlink": {
+    "category": "Rendering",
+    "subcategory": "Lighting",
+    "isMelScript": false
+  },
+  "lightList": {
+    "category": "Rendering",
+    "subcategory": "Lighting",
+    "isMelScript": false
+  },
+  "pointLight": {
+    "category": "Rendering",
+    "subcategory": "Lighting",
+    "isMelScript": false
+  },
+  "spotLight": {
+    "category": "Rendering",
+    "subcategory": "Lighting",
+    "isMelScript": false
+  },
+  "spotLightPreviewPort": {
+    "category": "Rendering",
+    "subcategory": "Lighting",
+    "isMelScript": false
+  },
+  "addDynamic": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "addPP": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "air": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "arrayMapper": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "clearParticleStartState": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "collision": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "connectDynamic": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "constrain": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "createCurveField": {
+    "categories": [
+      {
+        "category": "Effects",
+        "subcategory": "Particles, Forces, and other Simulations"
+      },
+      {
+        "category": "Effects",
+        "subcategory": "Particles, Forces, and other Simulations"
+      }
+    ],
+    "isMelScript": true
+  },
+  "drag": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "dynCache": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "dynConnectToTime": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "dynControl": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "dynExport": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "dynExpression": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "dynGlobals": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "dynPref": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "emit": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "emitter": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "event": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "expression": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "expressionEditorListen": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "getCollisionActiveObjects": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "getCollisionObjects": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "getParticleAttr": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "goal": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "gravity": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "newton": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "particle": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "particleExists": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "particleFill": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "particleInstancer": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "particleRenderInfo": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "radial": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "rigidBody": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": true
+  },
+  "rigidSolver": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": false
+  },
+  "runup": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": false
+  },
+  "saveInitialState": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": false
+  },
+  "setDynamic": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": false
+  },
+  "setParticleAttr": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": false
+  },
+  "soft": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": false
+  },
+  "spring": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": false
+  },
+  "turbulence": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": false
+  },
+  "uniform": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": false
+  },
+  "volumeAxis": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": false
+  },
+  "vortex": {
+    "category": "Effects",
+    "subcategory": "Particles, Forces, and other Simulations",
+    "isMelScript": false
+  },
+  "assignNSolver": {
+    "category": "Effects",
+    "subcategory": "nParticles, nCloth, nConstraints and other nucleus entities",
+    "isMelScript": true
+  },
+  "createNConstraint": {
+    "category": "Effects",
+    "subcategory": "nParticles, nCloth, nConstraints and other nucleus entities",
+    "isMelScript": true
+  },
+  "displayNClothMesh": {
+    "category": "Effects",
+    "subcategory": "nParticles, nCloth, nConstraints and other nucleus entities",
+    "isMelScript": true
+  },
+  "dynamicConstraintMembership": {
+    "category": "Effects",
+    "subcategory": "nParticles, nCloth, nConstraints and other nucleus entities",
+    "isMelScript": true
+  },
+  "getNextFreeMultiIndex": {
+    "category": "Effects",
+    "subcategory": "nParticles, nCloth, nConstraints and other nucleus entities",
+    "isMelScript": true
+  },
+  "getNextFreeMultiIndexForSource": {
+    "category": "Effects",
+    "subcategory": "nParticles, nCloth, nConstraints and other nucleus entities",
+    "isMelScript": true
+  },
+  "getSelectedNObjs": {
+    "category": "Effects",
+    "subcategory": "nParticles, nCloth, nConstraints and other nucleus entities",
+    "isMelScript": true
+  },
+  "makePassiveCollider": {
+    "category": "Effects",
+    "subcategory": "nParticles, nCloth, nConstraints and other nucleus entities",
+    "isMelScript": true
+  },
+  "moveCacheToInput": {
+    "category": "Effects",
+    "subcategory": "nParticles, nCloth, nConstraints and other nucleus entities",
+    "isMelScript": true
+  },
+  "nBase": {
+    "category": "Effects",
+    "subcategory": "nParticles, nCloth, nConstraints and other nucleus entities",
+    "isMelScript": true
+  },
+  "nClothConvertOutput": {
+    "category": "Effects",
+    "subcategory": "nParticles, nCloth, nConstraints and other nucleus entities",
+    "isMelScript": true
+  },
+  "nClothVertexEditor": {
+    "category": "Effects",
+    "subcategory": "nParticles, nCloth, nConstraints and other nucleus entities",
+    "isMelScript": true
+  },
+  "nParticle": {
+    "category": "Effects",
+    "subcategory": "nParticles, nCloth, nConstraints and other nucleus entities",
+    "isMelScript": true
+  },
+  "nSoft": {
+    "category": "Effects",
+    "subcategory": "nParticles, nCloth, nConstraints and other nucleus entities",
+    "isMelScript": true
+  },
+  "setNClothRestShape": {
+    "category": "Effects",
+    "subcategory": "nParticles, nCloth, nConstraints and other nucleus entities",
+    "isMelScript": true
+  },
+  "setNClothStartFromMesh": {
+    "category": "Effects",
+    "subcategory": "nParticles, nCloth, nConstraints and other nucleus entities",
+    "isMelScript": true
+  },
+  "deleteUnusedBrushes": {
+    "category": "Effects",
+    "subcategory": "Paint Effects Brushes, Strokes",
+    "isMelScript": true
+  },
+  "dynPaintEditor": {
+    "category": "Effects",
+    "subcategory": "Paint Effects Brushes, Strokes",
+    "isMelScript": true
+  },
+  "getDefaultBrush": {
+    "category": "Effects",
+    "subcategory": "Paint Effects Brushes, Strokes",
+    "isMelScript": true
+  },
+  "makeTubeOn": {
+    "category": "Effects",
+    "subcategory": "Paint Effects Brushes, Strokes",
+    "isMelScript": true
+  },
+  "paintEffectsDisplay": {
+    "category": "Effects",
+    "subcategory": "Paint Effects Brushes, Strokes",
+    "isMelScript": true
+  },
+  "pfxstrokes": {
+    "category": "Effects",
+    "subcategory": "Paint Effects Brushes, Strokes",
+    "isMelScript": true
+  },
+  "reparentStrokes": {
+    "category": "Effects",
+    "subcategory": "Paint Effects Brushes, Strokes",
+    "isMelScript": true
+  },
+  "resetPfxToPolyCamera": {
+    "category": "Effects",
+    "subcategory": "Paint Effects Brushes, Strokes",
+    "isMelScript": true
+  },
+  "scaleBrushBrightness": {
+    "category": "Effects",
+    "subcategory": "Paint Effects Brushes, Strokes",
+    "isMelScript": true
+  },
+  "setPfxToPolyCamera": {
+    "category": "Effects",
+    "subcategory": "Paint Effects Brushes, Strokes",
+    "isMelScript": true
+  },
+  "setStampDensity": {
+    "category": "Effects",
+    "subcategory": "Paint Effects Brushes, Strokes",
+    "isMelScript": true
+  },
+  "stroke": {
+    "category": "Effects",
+    "subcategory": "Paint Effects Brushes, Strokes",
+    "isMelScript": true
+  },
+  "applyAttrPreset": {
+    "category": "Effects",
+    "subcategory": "Fluid Effects",
+    "isMelScript": true
+  },
+  "attrPresetEditWin": {
+    "category": "Effects",
+    "subcategory": "Fluid Effects",
+    "isMelScript": true
+  },
+  "bakeFluidShading": {
+    "category": "Effects",
+    "subcategory": "Fluid Effects",
+    "isMelScript": true
+  },
+  "colorAtPoint": {
+    "category": "Effects",
+    "subcategory": "Fluid Effects",
+    "isMelScript": true
+  },
+  "createMotionField": {
+    "category": "Effects",
+    "subcategory": "Fluid Effects",
+    "isMelScript": true
+  },
+  "fluidCacheInfo": {
+    "category": "Effects",
+    "subcategory": "Fluid Effects",
+    "isMelScript": false
+  },
+  "fluidEmitter": {
+    "category": "Effects",
+    "subcategory": "Fluid Effects",
+    "isMelScript": false
+  },
+  "fluidVoxelInfo": {
+    "category": "Effects",
+    "subcategory": "Fluid Effects",
+    "isMelScript": false
+  },
+  "getFluidAttr": {
+    "category": "Effects",
+    "subcategory": "Fluid Effects",
+    "isMelScript": false
+  },
+  "loadFluid": {
+    "category": "Effects",
+    "subcategory": "Fluid Effects",
+    "isMelScript": false
+  },
+  "oceanNurbsPreviewPlane": {
+    "category": "Effects",
+    "subcategory": "Fluid Effects",
+    "isMelScript": true
+  },
+  "resampleFluid": {
+    "category": "Effects",
+    "subcategory": "Fluid Effects",
+    "isMelScript": true
+  },
+  "saveAttrPreset": {
+    "category": "Effects",
+    "subcategory": "Fluid Effects",
+    "isMelScript": true
+  },
+  "saveFluid": {
+    "category": "Effects",
+    "subcategory": "Fluid Effects",
+    "isMelScript": true
+  },
+  "setFluidAttr": {
+    "category": "Effects",
+    "subcategory": "Fluid Effects",
+    "isMelScript": true
+  },
+  "truncateFluidCache": {
+    "category": "Effects",
+    "subcategory": "Fluid Effects",
+    "isMelScript": false
+  },
+  "HfAddAttractorToAS": {
+    "category": "Effects",
+    "subcategory": "Maya Fur",
+    "isMelScript": true
+  },
+  "HfAssignAS": {
+    "category": "Effects",
+    "subcategory": "Maya Fur",
+    "isMelScript": true
+  },
+  "HfBuildEqualMap": {
+    "category": "Effects",
+    "subcategory": "Maya Fur",
+    "isMelScript": true
+  },
+  "HfBuildFurFiles": {
+    "category": "Effects",
+    "subcategory": "Maya Fur",
+    "isMelScript": true
+  },
+  "HfBuildFurImages": {
+    "category": "Effects",
+    "subcategory": "Maya Fur",
+    "isMelScript": true
+  },
+  "HfCancelAFR": {
+    "category": "Effects",
+    "subcategory": "Maya Fur",
+    "isMelScript": true
+  },
+  "HfConnectASToHF": {
+    "category": "Effects",
+    "subcategory": "Maya Fur",
+    "isMelScript": true
+  },
+  "HfCreateAttractor": {
+    "category": "Effects",
+    "subcategory": "Maya Fur",
+    "isMelScript": true
+  },
+  "HfDeleteAS": {
+    "category": "Effects",
+    "subcategory": "Maya Fur",
+    "isMelScript": true
+  },
+  "HfEditAS": {
+    "category": "Effects",
+    "subcategory": "Maya Fur",
+    "isMelScript": true
+  },
+  "HfPerformCreateAS": {
+    "category": "Effects",
+    "subcategory": "Maya Fur",
+    "isMelScript": true
+  },
+  "HfRemoveAttractorFromAS": {
+    "category": "Effects",
+    "subcategory": "Maya Fur",
+    "isMelScript": true
+  },
+  "HfSelectAttached": {
+    "category": "Effects",
+    "subcategory": "Maya Fur",
+    "isMelScript": true
+  },
+  "HfSelectAttractors": {
+    "category": "Effects",
+    "subcategory": "Maya Fur",
+    "isMelScript": true
+  },
+  "HfUnassignAS": {
+    "category": "Effects",
+    "subcategory": "Maya Fur",
+    "isMelScript": true
+  },
+  "compactHairSystem": {
+    "category": "Effects",
+    "subcategory": "Hair",
+    "isMelScript": true
+  },
+  "createHairCurveNode": {
+    "category": "Effects",
+    "subcategory": "Hair",
+    "isMelScript": true
+  },
+  "makeCurvesDynamic": {
+    "category": "Effects",
+    "subcategory": "Hair",
+    "isMelScript": true
+  },
+  "makeCurvesDynamicHairs": {
+    "category": "Effects",
+    "subcategory": "Hair",
+    "isMelScript": true
+  },
+  "randomizeFollicles": {
+    "category": "Effects",
+    "subcategory": "Hair",
+    "isMelScript": true
+  },
+  "textureHairColor": {
+    "category": "Effects",
+    "subcategory": "Hair",
+    "isMelScript": true
+  },
+  "truncateHairCache": {
+    "category": "Effects",
+    "subcategory": "Hair",
+    "isMelScript": false
+  },
+  "autoSave": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "basename": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "chdir": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "cmdFileOutput": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "dirmap": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "dirname": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "exec": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "exportEdits": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "fclose": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "feof": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "fflush": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "fgetline": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "fgetword": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "file": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "fileBrowserDialog": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "fileDialog": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "fileDialog2": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "fileExtension": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "fileInfo": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "filePathEditor": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "filetest": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "filterStudioImport": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "fopen": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "fprint": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "fread": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "freadAllLines": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "freadAllText": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "frewind": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "fromNativePath": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "fwrite": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "fwriteAllLines": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "fwriteAllText": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "getFileList": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "imfPlugins": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "incrementAndSaveScene": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "internalVar": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "launch": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "launchImageEditor": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "melInfo": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "namespace": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "namespaceInfo": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "pclose": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "popen": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "preloadRefEd": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "pwd": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "reference": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "referenceEdit": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "referenceQuery": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "reloadImage": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "requires": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "saveImage": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "sceneEditor": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "sceneUIReplacement": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "scriptNode": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "searchPathArray": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "selLoadSettings": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "setProject": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "sysFile": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "toNativePath": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "translator": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "unknownNode": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "unknownPlugin": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "untitledFileName": {
+    "categories": [
+      {
+        "category": "System",
+        "subcategory": "File, image, directory handling"
+      },
+      {
+        "category": "System",
+        "subcategory": "Localization Support"
+      }
+    ],
+    "isMelScript": true
+  },
+  "workspace": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "xbmLangPathList": {
+    "category": "System",
+    "subcategory": "File, image, directory handling",
+    "isMelScript": true
+  },
+  "assignInputDevice": {
+    "category": "System",
+    "subcategory": "Device Handling",
+    "isMelScript": false
+  },
+  "attachDeviceAttr": {
+    "category": "System",
+    "subcategory": "Device Handling",
+    "isMelScript": false
+  },
+  "detachDeviceAttr": {
+    "category": "System",
+    "subcategory": "Device Handling",
+    "isMelScript": false
+  },
+  "deviceEditor": {
+    "category": "System",
+    "subcategory": "Device Handling",
+    "isMelScript": false
+  },
+  "devicePanel": {
+    "category": "System",
+    "subcategory": "Device Handling",
+    "isMelScript": false
+  },
+  "getInputDeviceRange": {
+    "category": "System",
+    "subcategory": "Device Handling",
+    "isMelScript": false
+  },
+  "getModifiers": {
+    "category": "System",
+    "subcategory": "Device Handling",
+    "isMelScript": false
+  },
+  "listDeviceAttachments": {
+    "category": "System",
+    "subcategory": "Device Handling",
+    "isMelScript": false
+  },
+  "listInputDeviceAxes": {
+    "category": "System",
+    "subcategory": "Device Handling",
+    "isMelScript": false
+  },
+  "listInputDeviceButtons": {
+    "category": "System",
+    "subcategory": "Device Handling",
+    "isMelScript": false
+  },
+  "listInputDevices": {
+    "category": "System",
+    "subcategory": "Device Handling",
+    "isMelScript": false
+  },
+  "mouse": {
+    "category": "System",
+    "subcategory": "Device Handling",
+    "isMelScript": false
+  },
+  "recordAttr": {
+    "category": "System",
+    "subcategory": "Device Handling",
+    "isMelScript": false
+  },
+  "setAttrMapping": {
+    "category": "System",
+    "subcategory": "Device Handling",
+    "isMelScript": false
+  },
+  "setInputDeviceMapping": {
+    "category": "System",
+    "subcategory": "Device Handling",
+    "isMelScript": false
+  },
+  "unassignInputDevice": {
+    "category": "System",
+    "subcategory": "Device Handling",
+    "isMelScript": false
+  },
+  "getModulePath": {
+    "category": "System",
+    "subcategory": "Plug-in Handling",
+    "isMelScript": true
+  },
+  "getPluginResource": {
+    "categories": [
+      {
+        "category": "System",
+        "subcategory": "Plug-in Handling"
+      },
+      {
+        "category": "System",
+        "subcategory": "Localization Support"
+      }
+    ],
+    "isMelScript": true
+  },
+  "loadModule": {
+    "category": "System",
+    "subcategory": "Plug-in Handling",
+    "isMelScript": true
+  },
+  "loadPlugin": {
+    "category": "System",
+    "subcategory": "Plug-in Handling",
+    "isMelScript": true
+  },
+  "loadPluginLanguageResources": {
+    "categories": [
+      {
+        "category": "System",
+        "subcategory": "Plug-in Handling"
+      },
+      {
+        "category": "System",
+        "subcategory": "Localization Support"
+      }
+    ],
+    "isMelScript": true
+  },
+  "moduleInfo": {
+    "category": "System",
+    "subcategory": "Plug-in Handling",
+    "isMelScript": true
+  },
+  "openMayaPref": {
+    "category": "System",
+    "subcategory": "Plug-in Handling",
+    "isMelScript": true
+  },
+  "pluginDisplayFilter": {
+    "category": "System",
+    "subcategory": "Plug-in Handling",
+    "isMelScript": true
+  },
+  "pluginInfo": {
+    "category": "System",
+    "subcategory": "Plug-in Handling",
+    "isMelScript": true
+  },
+  "pluginResourceUtil": {
+    "categories": [
+      {
+        "category": "System",
+        "subcategory": "Plug-in Handling"
+      },
+      {
+        "category": "System",
+        "subcategory": "Localization Support"
+      }
+    ],
+    "isMelScript": true
+  },
+  "registerPluginResource": {
+    "categories": [
+      {
+        "category": "System",
+        "subcategory": "Plug-in Handling"
+      },
+      {
+        "category": "System",
+        "subcategory": "Localization Support"
+      }
+    ],
+    "isMelScript": true
+  },
+  "setPluginResource": {
+    "categories": [
+      {
+        "category": "System",
+        "subcategory": "Plug-in Handling"
+      },
+      {
+        "category": "System",
+        "subcategory": "Localization Support"
+      }
+    ],
+    "isMelScript": true
+  },
+  "unloadPlugin": {
+    "category": "System",
+    "subcategory": "Plug-in Handling",
+    "isMelScript": false
+  },
+  "displayString": {
+    "category": "System",
+    "subcategory": "Localization Support",
+    "isMelScript": true
+  },
+  "localizedPanelLabel": {
+    "category": "System",
+    "subcategory": "Localization Support",
+    "isMelScript": true
+  },
+  "localizedUIComponentLabel": {
+    "category": "System",
+    "subcategory": "Localization Support",
+    "isMelScript": true
+  },
+  "setAttrEnumResource": {
+    "category": "System",
+    "subcategory": "Localization Support",
+    "isMelScript": true
+  },
+  "setAttrNiceNameResource": {
+    "category": "System",
+    "subcategory": "Localization Support",
+    "isMelScript": true
+  },
+  "setNodeNiceNameResource": {
+    "category": "System",
+    "subcategory": "Localization Support",
+    "isMelScript": true
+  },
+  "uiRes": {
+    "category": "System",
+    "subcategory": "Localization Support",
+    "isMelScript": true
+  },
+  "aaf2fcp": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "alias": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "allNodeTypes": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "audioTrack": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "cacheFile": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "cacheFileCombine": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "cacheFileMerge": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "cacheFileTrack": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "clearCache": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "convertUnit": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "crashInfo": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "dagObjectCompare": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "date": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "dbcount": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "dbfootprint": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "dbmessage": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": true
+  },
+  "dbpeek": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": true
+  },
+  "dbtrace": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": true
+  },
+  "dgdirty": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": true
+  },
+  "dgeval": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": true
+  },
+  "dgfilter": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": true
+  },
+  "dgInfo": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": true
+  },
+  "dgmodified": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": true
+  },
+  "dgtimer": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": true
+  },
+  "dgValidateCurve": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": true
+  },
+  "diskCache": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": true
+  },
+  "displayStyle": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": true
+  },
+  "dynamicLoad": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": true
+  },
+  "env": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": true
+  },
+  "error": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": true
+  },
+  "fcheck": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "findType": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "flushUndo": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "getenv": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "getpid": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "hardware": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "help": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "hitTest": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "memory": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "ogs": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "openCLInfo": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "openGLExtension": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "profiler": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "profilerTool": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "putenv": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "redo": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "rehash": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "shotTrack": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "showHelp": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "system": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "timer": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "timerX": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "undo": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "undoInfo": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "warning": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "whatsNewHighlight": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "xpmPicker": {
+    "category": "System",
+    "subcategory": "Miscellaneous Utilities",
+    "isMelScript": false
+  },
+  "addAttributeEditorNodeHelp": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "appHome": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "colorEditor": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "confirmDialog": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "createEditor": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "defaultNavigation": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "editor": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "editorTemplate": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "fontDialog": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "framelessDialog": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "layoutDialog": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "minimizeApp": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "outputWindow": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "progressWindow": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "promptDialog": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "refreshAE": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "refreshEditorTemplates": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "resetAE": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "scriptEditorInfo": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "showSelectionInTitle": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "showWindow": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "toggleWindowVisibility": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "updateAE": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "window": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "windowPref": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "workspaceControlState": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "canCreateCaddyManip": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "componentEditor": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "contentBrowser": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "getMayaPanelTypes": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "getPanel": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "hardwareRenderPanel": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "hotkeyEditorPanel": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "hyperGraph": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "hyperPanel": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "hyperShade": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "inViewEditor": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "modelEditor": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "modelPanel": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "nodeEditor": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "nodeOutliner": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "outlinerEditor": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "outlinerPanel": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "panel": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "panelConfiguration": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "panelHistory": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "saveViewportSettings": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "scriptedPanel": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "scriptedPanelType": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "setFocus": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "spreadSheetEditor": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "viewManip": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "visor": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "webBrowser": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "webBrowserPrefs": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "attrColorSliderGrp": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "attrControlGrp": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "attrFieldGrp": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "attrFieldSliderGrp": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "attrNavigationControlGrp": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "button": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "canvas": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "channelBox": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "checkBox": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "checkBoxGrp": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "cmdScrollFieldExecuter": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "cmdScrollFieldReporter": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "cmdShell": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "colorIndexSliderGrp": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "colorInputWidgetGrp": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "colorSliderButtonGrp": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "colorSliderGrp": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "commandLine": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "componentBox": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "control": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "falloffCurve": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "falloffCurveAttr": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "floatField": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "floatFieldGrp": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "floatScrollBar": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "floatSlider": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "floatSlider2": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "floatSliderButtonGrp": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "floatSliderGrp": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "gradientControl": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "gradientControlNoAttr": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "helpLine": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "hudButton": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "hudSlider": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "hudSliderButton": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "iconTextButton": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "iconTextCheckBox": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "iconTextRadioButton": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "iconTextRadioCollection": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "iconTextScrollList": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "iconTextStaticLabel": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "image": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "intField": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "intFieldGrp": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "intScrollBar": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "intSlider": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "intSliderGrp": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "layerButton": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "messageLine": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "nameField": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "nodeTreeLister": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "palettePort": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "picture": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "progressBar": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "radioButton": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "radioButtonGrp": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "radioCollection": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "rangeControl": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "scriptTable": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "scrollField": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "separator": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "shelfButton": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "soundControl": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "soundPopup": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "swatchDisplayPort": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "switchTable": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "symbolButton": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "symbolCheckBox": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "text": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "textField": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "textFieldButtonGrp": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "textFieldGrp": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "textScrollList": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "timeControl": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "timeField": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "timeFieldGrp": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "timePort": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "toolButton": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "toolCollection": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "treeLister": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "treeView": {
+    "category": "Windows",
+    "subcategory": "Buttons, Sliders, etc.",
+    "isMelScript": false
+  },
+  "columnLayout": {
+    "category": "Windows",
+    "subcategory": "Organizing UI Components",
+    "isMelScript": false
+  },
+  "dockControl": {
+    "category": "Windows",
+    "subcategory": "Organizing UI Components",
+    "isMelScript": false
+  },
+  "flowLayout": {
+    "category": "Windows",
+    "subcategory": "Organizing UI Components",
+    "isMelScript": false
+  },
+  "formLayout": {
+    "category": "Windows",
+    "subcategory": "Organizing UI Components",
+    "isMelScript": false
+  },
+  "frameLayout": {
+    "category": "Windows",
+    "subcategory": "Organizing UI Components",
+    "isMelScript": false
+  },
+  "gridLayout": {
+    "category": "Windows",
+    "subcategory": "Organizing UI Components",
+    "isMelScript": false
+  },
+  "layout": {
+    "category": "Windows",
+    "subcategory": "Organizing UI Components",
+    "isMelScript": false
+  },
+  "menuBarLayout": {
+    "category": "Windows",
+    "subcategory": "Organizing UI Components",
+    "isMelScript": false
+  },
+  "paneLayout": {
+    "category": "Windows",
+    "subcategory": "Organizing UI Components",
+    "isMelScript": false
+  },
+  "rowColumnLayout": {
+    "category": "Windows",
+    "subcategory": "Organizing UI Components",
+    "isMelScript": false
+  },
+  "rowLayout": {
+    "category": "Windows",
+    "subcategory": "Organizing UI Components",
+    "isMelScript": false
+  },
+  "scrollLayout": {
+    "category": "Windows",
+    "subcategory": "Organizing UI Components",
+    "isMelScript": false
+  },
+  "shelfLayout": {
+    "category": "Windows",
+    "subcategory": "Organizing UI Components",
+    "isMelScript": false
+  },
+  "shelfTabLayout": {
+    "category": "Windows",
+    "subcategory": "Organizing UI Components",
+    "isMelScript": false
+  },
+  "tabLayout": {
+    "category": "Windows",
+    "subcategory": "Organizing UI Components",
+    "isMelScript": false
+  },
+  "toolBar": {
+    "category": "Windows",
+    "subcategory": "Organizing UI Components",
+    "isMelScript": false
+  },
+  "workspaceControl": {
+    "category": "Windows",
+    "subcategory": "Organizing UI Components",
+    "isMelScript": false
+  },
+  "workspaceLayoutManager": {
+    "category": "Windows",
+    "subcategory": "Organizing UI Components",
+    "isMelScript": false
+  },
+  "artBuildPaintMenu": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "attrEnumOptionMenu": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "attrEnumOptionMenuGrp": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "attributeMenu": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "findMenuItem": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "hotBox": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "menu": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "menuEditor": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "menuItem": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "menuItemToShelf": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": true
+  },
+  "menuSet": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "menuSetPref": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "optionMenu": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "optionMenuGrp": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "popupMenu": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "radioMenuItemCollection": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "saveMenu": {
+    "category": "Windows",
+    "subcategory": "Windows",
+    "isMelScript": false
+  },
+  "addCustomPrefsTab": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "addNewShelfTab": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "addPanelCategory": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "annotate": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "autoPlace": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "buttonManip": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "CBG": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "createNewShelf": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "deleteShelfTab": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "destroyLayout": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "disableIncorrectNameWarning": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "grabColor": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "headsUpDisplay": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "headsUpMessage": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "hotkey": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "hotkeyCheck": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "hotkeyCtx": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "hotkeySet": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "inViewMessage": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "isValidUiName": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "linearPrecision": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "listPanelCategories": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "loadNewShelf": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "loadPrefObjects": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "loadUI": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "mayaDpiSetting": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "multiTouch": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "nameCommand": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "overrideModifier": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "removePanelCategory": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "runTimeCommand": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "saveAllShelves": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "savePrefObjects": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "savePrefs": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "saveShelf": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "scmh": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "scriptToShelf": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "setMenuMode": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "setNodeTypeFlag": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "setStartupMessage": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "textManip": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "textToShelf": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "thumbnailCaptureComponent": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  },
+  "validateShelfName": {
+    "category": "Windows",
+    "subcategory": "Miscellaneous UI",
+    "isMelScript": true
+  }
+}
