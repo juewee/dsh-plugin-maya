@@ -24,6 +24,7 @@ English | [中文](README.zh.md)
 | `maya_doc_categories` | category → subcategory → command counts, for browsing by topic |
 | `maya_cmd` | run Python inside a **running** Maya over its command port; captured stdout + tracebacks |
 | `maya_standalone` | run a script headlessly with `mayapy.exe`; stdout/stderr/exit code |
+| `maya_session` | one persistent headless Maya across calls: build/open a scene, walk the Outliner, edit and save |
 
 Two skills ship alongside them and are picked up by the DSH skill catalog without any
 plugin installation:
@@ -62,6 +63,7 @@ maya_status                                  → what can I run?
 maya_doc_search "blendShape"                 → which command, which category?
 maya_doc_get ["blendShape", "setKeyframe"]   → exact flags + official examples
 maya_standalone <script>                     → does it actually run in a fresh scene?
+maya_session  <open a .ma, walk the DAG, edit, save>   → multi-step work, Maya starts once
 maya_cmd <probe>                             → is it right in the user's live scene?
 ```
 
@@ -77,11 +79,14 @@ dsh-plugin-maya/
 │   ├── schema.js            defineTool equivalent + JSON Schema argument validation
 │   ├── maya-docs.js         lazy cached doc store, ranked search, category tree
 │   ├── command-port.js      sentinel-framed Maya command-port client
-│   └── standalone.js        mayapy runner + interpreter detection
+│   ├── standalone.js        mayapy runner + interpreter detection
+│   ├── session.js           persistent headless Maya client
+│   └── session-driver.py    in-process driver for that session
 ├── skills/                  DSH skills (installed into <project>/.dsh/skills)
 ├── data/                    Maya 2020 / 2022 / 2025 documentation + MANIFEST.json
 ├── docs/                    design, tool reference, configuration, data
 ├── scripts/                 sync-docs · install-skills · enable · link-dsh-modules
+├── examples/                walk-scene.mjs · edit-scene.mjs (standalone, no DSH host)
 ├── test/smoke.mjs           integration test (real Cordis + real tool registry)
 └── .github/workflows/ci.yml
 ```
@@ -102,8 +107,10 @@ dsh-plugin-maya/
 `@deepseek-ai/dsh-tools` registry and dispatches through `ctx.tools.execute`, so schema
 projection, argument validation and result rendering are all exercised. `maya_cmd` is
 tested against a fake command port whose "Maya" is a real Python interpreter running the
-payload the client sends; `maya_standalone` runs real `mayapy.exe` when it is installed
-and is skipped otherwise, which keeps the suite CI-runnable.
+payload the client sends; `maya_standalone` and `maya_session` run real `mayapy.exe` when
+it is installed and are skipped otherwise, which keeps the suite CI-runnable. The
+session checks build a scene, save it, open it in a new scene, walk the DAG and read
+attributes back.
 
 ```powershell
 npm install   # devDependencies only: cordis, dsh-system-prompt, dsh-tools

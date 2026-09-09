@@ -23,6 +23,7 @@ socket 脚本变成一个带帧协议的 command port 客户端。
 | `maya_doc_categories` | 分类 → 子分类 → 命令数，用于按主题浏览 |
 | `maya_cmd` | 在**正在运行的 Maya** 里执行 Python，回传 stdout 和异常栈 |
 | `maya_standalone` | 用 `mayapy.exe` 无界面跑脚本，回传 stdout/stderr/退出码 |
+| `maya_session` | 常驻无界面 Maya：跨多次调用保持状态，可打开场景、遍历大纲、修改并保存 |
 
 另外附带 2 个技能，**不需要安装插件**就能进入 DSH 技能目录：
 
@@ -57,6 +58,7 @@ maya_status                                  → 这个会话能做什么？
 maya_doc_search "blendShape"                 → 命令叫什么、属于哪个分类？
 maya_doc_get ["blendShape", "setKeyframe"]   → 确切参数 + 官方示例
 maya_standalone <script>                     → 在干净场景里真的能跑吗？
+maya_session  <打开 .ma、遍历大纲、修改、保存>  → 多步操作，Maya 只启动一次
 maya_cmd <probe>                             → 在用户当前场景里对不对？
 ```
 
@@ -71,11 +73,14 @@ dsh-plugin-maya/
 │   ├── schema.js            defineTool 等价实现 + JSON Schema 参数校验
 │   ├── maya-docs.js         懒加载缓存的文档库、排序检索、分类树
 │   ├── command-port.js      带哨兵分帧的 Maya command port 客户端
-│   └── standalone.js        mayapy 执行器 + 解释器探测
+│   ├── standalone.js        mayapy 执行器 + 解释器探测
+│   ├── session.js           常驻无界面 Maya 客户端
+│   └── session-driver.py    常驻会话的进程内驱动
 ├── skills/                  DSH 技能（安装到 <项目>/.dsh/skills）
 ├── data/                    Maya 2020 / 2022 / 2025 文档 + MANIFEST.json
 ├── docs/                    设计、工具参考、配置、数据
 ├── scripts/                 sync-docs · install-skills · enable · link-dsh-modules
+├── examples/                walk-scene.mjs · edit-scene.mjs（可脱离 DSH 直接跑）
 ├── test/smoke.mjs           集成测试（真实 Cordis + 真实工具注册表）
 └── .github/workflows/ci.yml
 ```
@@ -95,7 +100,8 @@ dsh-plugin-maya/
 `npm test` 把插件挂进真实的 Cordis 上下文和真实的 `@deepseek-ai/dsh-tools` 注册表，
 并通过 `ctx.tools.execute` 派发调用，所以 schema 投影、参数校验、结果渲染都被覆盖。
 `maya_cmd` 用假命令端口测试——假端口的"Maya"是真正的 Python 解释器，执行客户端发过去的
-payload；`maya_standalone` 在装有 `mayapy.exe` 时跑真 Maya，没装就跳过，因此 CI 也能跑。
+payload；`maya_standalone` 和 `maya_session` 在装有 `mayapy.exe` 时跑真 Maya，没装就跳过，
+因此 CI 也能跑。会话部分会建场景、存盘、重新打开、遍历大纲并读回属性。
 
 ```powershell
 npm install   # 仅 devDependencies：cordis、dsh-system-prompt、dsh-tools

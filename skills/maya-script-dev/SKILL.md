@@ -17,13 +17,14 @@ How to write Maya Python that actually runs. The `maya_*` tools are the ground t
 | Browse by topic when no name is known | `maya_doc_categories` then `maya_doc_search` with `category` |
 | Run code in the user's running Maya | `maya_cmd` |
 | Test a script headlessly in a fresh scene | `maya_standalone` |
+| Open a scene and inspect/edit it over several steps | `maya_session` (persistent headless Maya) |
 
 ## Standard workflow
 
 1. `maya_status` — learn the mayapy path, whether a command port is open, and which doc versions exist.
 2. Look up every non-trivial command with `maya_doc_search` / `maya_doc_get`. Do not guess flag names or return-value shapes; the docs contain verbatim examples.
 3. Write the script with named nodes and explicit error handling (see below).
-4. Verify with `maya_standalone` (headless, safe, repeatable) — assert the result with `print()` lines, then read the captured stdout. This is the cheapest way to prove a script works.
+4. Verify with `maya_standalone` (headless, safe, repeatable) — assert the result with `print()` lines, then read the captured stdout. This is the cheapest way to prove a script works. For work that needs several steps against one scene (open a file, walk the DAG, tweak, save), use `maya_session` instead: it keeps the interpreter and the scene alive, so you pay Maya's startup once.
 5. If the user has Maya open, verify in their real session with `maya_cmd` (inspect or create, then query back). Warn before destructive operations (delete, `file -new`, batch rename).
 6. Deliver the script plus the exact way to run it.
 
@@ -73,6 +74,33 @@ maya.standalone.uninitialize()
 - No default persp/top/front/side cameras in the standalone world.
 - Load plugins explicitly with `cmds.loadPlugin(...)` after `initialize()`.
 - Print machine-checkable lines (`print("RESULT", value)`) so the captured stdout is easy to assert.
+- `cleanPrefs` (default true) points `MAYA_APP_DIR` at an empty directory: the user's `userSetup.py` does not run, startup is about twice as fast, and a broken userSetup cannot pollute the result. Pass `cleanPrefs: false` when the script needs the user's plugins or shelves.
+
+## Persistent headless session (`maya_session`)
+
+Use it when a task is naturally several steps against one scene — open a file, walk the DAG, read attributes, modify, save — instead of paying ~5s of Maya startup per `maya_standalone` call.
+
+```
+maya_session action="run" code="import maya.cmds as cmds; cmds.file('D:/scenes/a.ma', open=True, force=True); print(len(cmds.ls()))"
+maya_session action="run" code="print(cmds.listRelatives('rig', children=True))"   # namespace still there
+maya_session action="stop"
+```
+
+- The namespace, imports and loaded scene persist between calls; `cmds` is already imported.
+- It is a private Maya instance: it cannot see the user's open GUI scene — use `maya_cmd` for that.
+- Opening a file replaces the session scene; saving with `cmds.file(path, save=True)` on a new scene fails — `cmds.file(rename=path)` first, then `cmds.file(save=True, type="mayaAscii")`.
+- A call that exceeds `timeoutMs` kills the session; the next `run` starts a fresh one.
+- Outliner walk pattern:
+
+```python
+def walk(node, depth=0):
+    print("  " * depth + "- " + node + " [" + cmds.nodeType(node) + "]")
+    for child in cmds.listRelatives(node, children=True, fullPath=False) or []:
+        walk(child, depth + 1)
+
+for root in cmds.ls(assemblies=True):
+    walk(root)
+```
 
 ## Script style that survives review
 

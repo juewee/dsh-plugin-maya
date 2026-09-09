@@ -4,6 +4,28 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [semantic versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.0] - 2026-09-09
+
+### Added
+
+- **`maya_session`** — a persistent headless Maya: one `mayapy.exe` process driven
+  over stdin/stdout with a sentinel-framed JSON protocol (`lib/session-driver.py`,
+  `lib/session.js`). Namespace, imports and the loaded scene survive between calls,
+  so a scene can be opened, inspected (Outliner walk), edited and saved across many
+  calls while paying Maya's ~5s startup once. Actions: `run`, `start`, `status`, `stop`.
+- `cleanPrefs` option for `maya_standalone` (default **true**): points `MAYA_APP_DIR`
+  at an empty directory, which skips the user's `userSetup.py`, roughly halves
+  startup (measured 11.5s → 5.0s) and makes verification reproducible.
+- `examples/walk-scene.mjs` — open any `.ma`/`.mb` headlessly and print its Outliner tree.
+- `examples/edit-scene.mjs` — open, edit, save to a new file and verify, without
+  touching the input.
+
+### Changed
+
+- `maya_status` also reports whether a persistent session is running.
+- Test harness covers the session end to end: state persistence, building and saving
+  a scene, opening a `.ma`, walking the DAG, reading attributes, and stop/cleanup.
+
 ## [0.1.0] - 2026-09-09
 
 ### Added
@@ -23,4 +45,5 @@ All notable changes to this project are documented here. The format follows
 - End-to-end test harness that mounts the plugin into a real Cordis context and
   runs the real DSH tool pipeline (`test/smoke.mjs`).
 
+[0.2.0]: https://github.com/juewee/dsh-plugin-maya/releases/tag/v0.2.0
 [0.1.0]: https://github.com/juewee/dsh-plugin-maya/releases/tag/v0.1.0

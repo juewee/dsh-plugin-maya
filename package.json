@@ -1,7 +1,7 @@
 {
   "name": "dsh-plugin-maya",
-  "version": "0.1.0",
-  "description": "DeepSeek Harness plugin for Maya scripting: offline maya.cmds documentation, live Maya control over the command port, and headless mayapy verification.",
+  "version": "0.2.0",
+  "description": "DeepSeek Harness plugin for Maya scripting: offline maya.cmds documentation, live Maya control over the command port, and headless mayapy verification plus a persistent headless Maya session.",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -13,6 +13,7 @@
     "skills",
     "data",
     "scripts",
+    "examples",
     "docs",
     "README.md",
     "README.zh.md",

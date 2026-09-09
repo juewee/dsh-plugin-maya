@@ -1,6 +1,6 @@
 # Tool reference
 
-Six tools are registered on `ctx.tools`. Every one returns a bounded text
+Seven tools are registered on `ctx.tools`. Every one returns a bounded text
 projection (`report`) plus a canonical JSON value, so a UI can render either.
 
 Under PTC mode they are reachable as `await tools.maya_doc_search({...})` inside
@@ -17,7 +17,7 @@ What can this session actually do? Call it once at the start of a Maya task.
 |---|---|---|---|---|
 | `probe` | boolean | no | `true` | also probe mayapy and the command port; `false` only reports configured paths |
 
-Returns: `{ report, mayapy, mayapyAvailable, commandPort: { host, port, reachable }, docsRoot, versions: [{ version, commands }] }`
+Returns: `{ report, mayapy, mayapyAvailable, commandPort: { host, port, reachable }, session, docsRoot, versions: [{ version, commands }] }`
 
 ```
 mayapy: D:/losheep/tools/Maya/Maya2025/bin/mayapy.exe — 3.11.4 (tags/v3.11.4:d2340ef, ...)
@@ -152,14 +152,16 @@ Run a Maya script headlessly with `mayapy.exe` and return stdout, stderr and the
 | `args` | string[] | no | `[]` | extra argv passed to the script |
 | `mayapy` | string | no | auto-detected | override the interpreter for this call |
 | `cwd` | string | no | — | working directory for the child process |
+| `cleanPrefs` | boolean | no | `true` | isolate Maya preferences via `MAYA_APP_DIR` |
 | `timeoutMs` | integer | no | `300000` | 1000–3600000 ms |
 
 Returns: `{ report, ok, exitCode, stdout, stderr, truncated, elapsedMs, scriptPath, mayapy }`
 
 ```
-maya_standalone ok — exit 0 in 12768ms
+maya_standalone ok — exit 0 in 5012ms
 mayapy: D:/losheep/tools/Maya/Maya2025/bin/mayapy.exe
 script: C:/Users/.../Temp/dsh-maya-standalone/dsh_maya_1788968087321_5kad7a.py
+prefs: isolated (userSetup.py skipped)
 --- stdout ---
 created: ['DshTestCube', 'polyCube1'] ['DshTestSphere', 'polySphere1']
 meshes: 2
@@ -167,5 +169,95 @@ exists: True
 ```
 
 Streams are capped at 256 KiB each; a timeout kills the child and reports partial output
-with `ok: false` and `exitCode: null`. The user's own `userSetup.py` runs too, so its
-failures appear on stderr — that is information, not a tool failure.
+with `ok: false` and `exitCode: null`.
+
+`cleanPrefs` (default true) points `MAYA_APP_DIR` at an empty directory, so the user's
+preferences and `Documents/maya/scripts/userSetup.py` are not loaded. That makes runs
+reproducible and roughly twice as fast (measured 11.5s → 5.0s). Pass `cleanPrefs: false`
+when the script needs the user's plugins, shelves or environment set up by `userSetup.py`.
+
+---
+
+## `maya_session`
+
+One **persistent** headless Maya: the same `mayapy.exe` process answers every call, so
+imports, variables and the loaded scene survive between them. Use it for multi-step work
+against a scene; use `maya_standalone` for a one-shot script in a pristine interpreter.
+
+| Parameter | Type | Required | Default | Meaning |
+|---|---|---|---|---|
+| `action` | string enum | no | `"run"` | `"run" \| "start" \| "status" \| "stop"` |
+| `code` | string | for `run` | — | Python source; `maya.cmds` is already imported as `cmds` |
+| `mayapy` | string | no | auto-detected | interpreter override (`start`) |
+| `cleanPrefs` | boolean | no | `true` | isolate preferences (`start`) |
+| `timeoutMs` | integer | no | `60000` run / `180000` start | 500–900000 ms |
+
+Returns: `{ report, ok, stdout, stderr, error, elapsedMs, scene, session }`
+
+```python
+# call 1 — run starts the session automatically
+import maya.cmds as cmds
+cmds.file(new=True, force=True)
+rig = cmds.group(em=True, name="rig")
+body = cmds.polyCube(name="body")[0]
+cmds.parent(body, rig)
+cmds.file(rename="C:/tmp/demo.ma")
+cmds.file(save=True, type="mayaAscii")
+```
+
+```python
+# call 2 — different call, same Maya, same scene
+print(cmds.file(query=True, sceneName=True))          # C:/tmp/demo.ma
+print(cmds.listRelatives("rig", children=True))       # ['body']
+```
+
+```
+maya_session run ok — 14ms
+C:/tmp/demo.ma
+['body']
+scene: C:/tmp/demo.ma | nodes: 56
+```
+
+An Outliner walk is just Python:
+
+```python
+def walk(node, depth=0):
+    print("  " * depth + "- " + node + " [" + cmds.nodeType(node) + "]")
+    for child in cmds.listRelatives(node, children=True, fullPath=False) or []:
+        walk(child, depth + 1)
+
+for root in cmds.ls(assemblies=True):
+    walk(root)
+```
+
+Real output against Maya's own example rig (`Examples/Animation/Rigs/M4Y4-B07.ma`,
+877 nodes, 55 meshes, 137 joints):
+
+```
+- m4y4_GEO_GRP [transform]
+  - head [transform]
+  - torso [transform]
+  - L_arm [transform]
+  - R_arm [transform]
+- M4Y4_rig_Guides [joint]
+  - Head [joint]
+  - Hips [joint]
+  - LeftArm [joint]
+```
+
+Behaviour and limits:
+
+- `run` auto-starts a session when none is running, and says so in the report.
+- The session is a **private** Maya: it cannot see the user's open GUI scene. Use
+  `maya_cmd` for the live session, or open the saved file here.
+- Opening a file replaces the session scene. Saving into a new path needs
+  `cmds.file(rename=path)` before `cmds.file(save=True, ...)`; saving with a path and
+  `save=True` raises Maya's "cannot specify a filename with -save" error.
+- A call that exceeds `timeoutMs` **kills** the session (Python cannot be interrupted
+  safely); the next `run` starts a fresh one, so treat long loops as fatal.
+- `status` is cheap and reports pid, uptime, interpreter, scene and any stderr tail.
+- The session stops on plugin dispose, on `action: "stop"`, and on timeout/abort.
+
+Two runnable examples ship in `examples/`: `walk-scene.mjs` (open a `.ma`/`.mb` and
+print its Outliner tree) and `edit-scene.mjs` (open, edit, save to a new file, verify).
+They drive `lib/session.js` directly, without a DSH host.

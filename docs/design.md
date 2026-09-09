@@ -146,12 +146,48 @@ cannot reach into Maya's main thread.
 - detects the interpreter (`config.mayapy` → `DSH_MAYA_MAYAPY` → `D:\losheep\tools\Maya\Maya*\bin`
   → `C:\Program Files\Autodesk\Maya*\bin` → `PATH`);
 - writes inline `code` to a temp file and spawns it with `PYTHONIOENCODING=utf-8`;
+- with `cleanPrefs` (default) points `MAYA_APP_DIR` at one shared empty directory, which
+  stops Maya from loading the user's preferences and `userSetup.py`: measured startup
+  drops from 11.5s to 5.0s, a broken userSetup.py cannot pollute a verification run,
+  and results are reproducible;
 - caps stdout/stderr at 256 KiB each so a runaway loop cannot flood the context;
 - kills the child on timeout or abort and reports partial output;
 - returns `{ ok, exitCode, stdout, stderr, truncated, elapsedMs }`.
 
 Because it is a real Maya without a GUI, it is the right gate before touching a user's
 scene — and the right place to assert behaviour with `print("RESULT", ...)` lines.
+
+## Persistent session
+
+`maya_standalone` pays Maya's startup on every call, which is wasteful when a task is
+naturally several steps against one scene. `maya_session` keeps a single `mayapy.exe`
+alive and speaks a line protocol to it:
+
+```
+node  --stdin-->  {"action": "run", "id": "a1b2", "code": "..."}
+node  <--stdout-- __DSH_SESSION_<token>__{"ok": true, "stdout": "...", "scene": {...}}__END__
+```
+
+Why this shape:
+
+- **stdin/stdout, not a socket.** A child process needs no command port, no port
+  number, no authentication, and cannot be reached by other local processes.
+- **A sentinel, not a length prefix.** The driver executes user code in a persistent
+  namespace with `sys.stdout`/`sys.stderr` redirected to `StringIO`, so protocol
+  messages stay parseable even if the payload prints megabytes; anything written
+  straight to file descriptor 1 lands before the sentinel and is surfaced separately
+  as "raw fd-1 output" instead of corrupting the protocol.
+- **A persistent namespace, not a fresh interpreter.** `exec` runs against one globals
+  dict, so imports, variables and the loaded scene survive between calls — that is the
+  whole point, and it is what makes "open a file, walk the DAG, edit, save" cheap.
+- **Kill on timeout, never interrupt.** Python cannot be safely interrupted mid-call, so
+  a call that exceeds its budget kills the process and the next call starts a fresh
+  session. The tool says so instead of pretending the code stopped.
+- **Serialized calls.** One in-flight request per session; a second call queues behind
+  the first, which keeps the scene deterministic.
+
+The driver is a real, readable `lib/session-driver.py` rather than an inline string, so
+it can be run and debugged on its own (`mayapy.exe lib/session-driver.py <token>`).
 
 ## Documentation store
 
@@ -179,6 +215,9 @@ whose doc page 404'd is reported with `error: "HTTP 404"` rather than as unknown
 | Payload raised inside Maya | successful call with `ok: false` and the traceback in the output |
 | Payload exceeded `timeoutMs` | `ok: false` with partial output plus a timeout note |
 | `mayapy` missing | error telling the model to set `config.mayapy` or `DSH_MAYA_MAYAPY` |
+| Session not started | `run` auto-starts one and says so; other actions report the state |
+| Session call timed out | error stating the session was killed and must be restarted |
+| Session process died | error with the exit code and the stderr tail that preceded it |
 | Docs root missing/unreadable | error naming the directory and the offending code |
 | Unknown doc version | error listing the versions actually present |
 | Invalid model arguments | `invalid arguments: arguments.<field> ...` before the body runs |

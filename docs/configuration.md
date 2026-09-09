@@ -108,3 +108,5 @@ installed documentation versions in one line.
 | `unknown Maya documentation version` | the error lists the versions present under `docsRoot` |
 | Test harness cannot resolve `@deepseek-ai/*` | run `node scripts/link-dsh-modules.mjs` or `npm install` (devDependencies) |
 | `maya_cmd` times out but Maya is busy | raise `timeoutMs`; the code keeps running inside Maya and cannot be cancelled from here |
+| `maya_session` says the session was killed | a call exceeded `timeoutMs`; the next `run` starts a fresh session — keep long work in `maya_standalone` instead |
+| Headless run misses a plugin/shelf the script needs | pass `cleanPrefs: false` so the user's `userSetup.py` and preferences load |

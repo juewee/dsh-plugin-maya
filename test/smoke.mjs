@@ -120,7 +120,7 @@ async function main() {
     debugLogPath: join(PLUGIN_ROOT, 'test', 'load.log'),
   });
   const names = ctx.tools.schemas().map((schema) => schema.name).filter((name) => name.startsWith('maya_'));
-  check('six maya tools registered', names.length === 6, names.join(', '));
+  check('seven maya tools registered', names.length === 7, names.join(', '));
 
   section('maya_status');
   const status = await callTool(ctx, 'maya_status', { probe: true });
@@ -197,6 +197,75 @@ async function main() {
     const standaloneText = textOf(standalone);
     check('mayapy run succeeds', standaloneText.startsWith('maya_standalone ok'), standaloneText.split('\n')[0]);
     check('Maya initialized and created geometry', standaloneText.includes('DshTestCube') && standaloneText.includes('meshes: 2'));
+    check('isolated prefs skip the user userSetup.py', !/Failed to execute/.test(standaloneText));
+  }
+
+  section('maya_session (persistent headless Maya)');
+  if (!MAYAPY_AVAILABLE) {
+    skip('persistent session', 'mayapy not installed at ' + MAYAPY);
+  } else {
+    const workDir = await mkdtemp(join(tmpdir(), 'dsh-maya-session-test-'));
+    const sceneFile = join(workDir, 'session_scene.ma');
+    const scenePathLine = 'scene_path = ' + JSON.stringify(sceneFile);
+
+    const first = await callTool(ctx, 'maya_session', { action: 'run', code: 'counter = 41\nprint("session alive")', timeoutMs: 180000 });
+    check('session auto-starts on run', textOf(first).startsWith('maya_session run ok'), textOf(first).split('\n')[0]);
+
+    const second = await callTool(ctx, 'maya_session', { action: 'run', code: 'print("counter:", counter + 1)', timeoutMs: 60000 });
+    check('namespace persists between calls', textOf(second).includes('counter: 42'));
+
+    const build = await callTool(ctx, 'maya_session', {
+      action: 'run',
+      code: [
+        'import maya.cmds as cmds',
+        'cmds.file(new=True, force=True)',
+        'rig = cmds.group(em=True, name="rig")',
+        'body = cmds.polyCube(name="body")[0]',
+        'head = cmds.polySphere(name="head")[0]',
+        'cmds.parent(body, head, rig)',
+        'cmds.setAttr(head + ".translateY", 3)',
+        scenePathLine,
+        'cmds.file(rename=scene_path)',
+        'cmds.file(save=True, type="mayaAscii")',
+        'print("saved:", cmds.file(query=True, sceneName=True))',
+      ].join('\n'),
+      timeoutMs: 60000,
+    });
+    check('builds and saves a scene', textOf(build).includes('saved:'), textOf(build).split('\n')[0]);
+
+    const opened = await callTool(ctx, 'maya_session', {
+      action: 'run',
+      code: [
+        'import maya.cmds as cmds',
+        'cmds.file(new=True, force=True)',
+        scenePathLine,
+        'cmds.file(scene_path, open=True, force=True)',
+        'def walk(node, depth=0):',
+        '    print("  " * depth + "- " + node + " [" + cmds.nodeType(node) + "]")',
+        '    for child in cmds.listRelatives(node, children=True, fullPath=False) or []:',
+        '        walk(child, depth + 1)',
+        'roots = [node for node in cmds.ls(assemblies=True) if node == "rig"]',
+        'print("roots:", roots)',
+        'for root in roots:',
+        '    walk(root)',
+        'print("head.translateY:", cmds.getAttr("head.translateY"))',
+      ].join('\n'),
+      timeoutMs: 60000,
+    });
+    const openedText = textOf(opened);
+    check('opens a saved .ma file', openedText.startsWith('maya_session run ok') && openedText.includes("roots: ['rig']"), openedText.split('\n')[0]);
+    check('walks the DAG (Outliner) hierarchy', /- rig \[transform\]/.test(openedText) && /- body \[transform\]/.test(openedText) && /\[mesh\]/.test(openedText));
+    check('reads attribute values from the opened file', openedText.includes('head.translateY: 3.0'));
+
+    const status = await callTool(ctx, 'maya_status', { probe: false });
+    check('maya_status reports the running session', /maya session: running \(pid \d+/.test(textOf(status)), textOf(status).split('\n').slice(-1)[0]);
+
+    const stopped = await callTool(ctx, 'maya_session', { action: 'stop' });
+    check('session stops cleanly', textOf(stopped).includes('stopped'), textOf(stopped).split('\n')[0]);
+    const afterStop = await callTool(ctx, 'maya_status', { probe: false });
+    check('status shows the session is gone', /maya session: not running/.test(textOf(afterStop)));
+
+    await rm(workDir, { recursive: true, force: true });
   }
 
   await ctx.fiber.dispose();
