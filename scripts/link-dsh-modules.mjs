@@ -37,6 +37,6 @@ const link = join(PLUGIN_ROOT, 'node_modules');
 if (existsSync(link)) {
   console.log('already linked: ' + link);
 } else {
-  symlinkSync(modules, link, 'junction');
+  symlinkSync(modules, link, process.platform === 'win32' ? 'junction' : 'dir');
   console.log('linked ' + link + ' -> ' + modules);
 }
