@@ -16,7 +16,7 @@ Make a DeepSeek Harness agent competent at Maya Python work, with three properti
 
 ## Why a plugin instead of skills that grep JSON
 
-The upstream `maya-doc` project exposed its documentation through Trae skills whose
+The upstream `maya-doc` project exposed its documentation through skills whose
 instructions were, essentially, *"never read this 1.3 MB JSON; grep it instead"*.
 That works, but it pushes retrieval work onto the model:
 

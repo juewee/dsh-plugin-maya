@@ -8,8 +8,8 @@
 实时通道**、以及**无界面 `mayapy` 验证器**——脚本交给你之前先证明它跑得起来。
 
 它是把 [maya-doc](https://github.com/juewee/maya-doc) 项目重做成 DSH 原生插件：
-Trae 技能变成 DSH 技能，"别读这 1.3 MB JSON、去 grep"变成带排序的工具，散落的 socket
-脚本变成一个带帧协议的 command port 客户端。
+它里面的技能变成 DSH 技能，"别读这 1.3 MB JSON、去 grep"变成带排序的工具，散落的
+socket 脚本变成一个带帧协议的 command port 客户端。
 
 [English](README.md) | 中文
 

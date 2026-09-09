@@ -71,9 +71,10 @@ tools truncate further per call.
 node scripts/sync-docs.mjs --from D:\path\to\maya-doc
 ```
 
-The script copies `<maya-doc>/.trae/skills/maya-<version>-api-doc/data/*.json` into
-`data/<version>/` and rewrites `MANIFEST.json` with command counts, byte sizes and a
-timestamp. To regenerate the scrape itself, use the crawler in the `maya-doc` repository.
+The script locates every `maya-<version>-api-doc` directory inside the checkout
+(wherever it sits), copies its `data/*.json` into `data/<version>/`, and rewrites
+`MANIFEST.json` with command counts, byte sizes and a timestamp. To regenerate the
+scrape itself, use the crawler in the `maya-doc` repository.
 
 ## How the tools read it
 

@@ -9,8 +9,8 @@ documentation**, a **live channel into a running Maya**, and a **headless `mayap
 runner** so a script can be proven before it is handed over.
 
 It is the [maya-doc](https://github.com/juewee/maya-doc) project rebuilt as a native DSH
-plugin: the Trae skills became DSH skills, "grep this 1.3 MB JSON" became ranked tools,
-and the socket scripts became one framed command-port client.
+plugin: its skills became DSH skills, its "grep this 1.3 MB JSON" guidance became ranked
+tools, and its socket scripts became one framed command-port client.
 
 English | [中文](README.zh.md)
 
