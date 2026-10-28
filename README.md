@@ -33,6 +33,29 @@ plugin installation:
 |---|---|
 | `maya-script-dev` | the workflow: which tool when, version differences, command-port setup, standalone pitfalls, script style |
 | `maya-script-templates` | ten copy-ready patterns (create/transform, queries, modeling, keyframes, file I/O, attributes, shading, deformers, UI, batch) |
+| `maya-anim-curve-diagnostics` | measure bounce / overshoot / jerk per animation channel, then reshape it into a five-key exponential ease |
+
+## Animation curve tool
+
+`scripts/anim_curve_tool.py` is a standalone, dependency-free module for
+diagnosing stiff animation curves and reshaping them. It runs in the Script
+Editor, through `maya_cmd`, or under `mayapy`.
+
+```python
+import sys; sys.path.insert(0, r"<plugin>/scripts")
+import anim_curve_tool as act
+
+act.inspect()                                       # per channel: bounce, overshoot, max_jerk
+act.unflatten_ends("Camera_Global.rotateZ", apply=True)   # endpoints off 0 degrees
+act.fit_exp("Camera_Global.rotateZ", 101, 151, 206)       # dry run: print the plan
+act.fit_exp("Camera_Global.rotateZ", 101, 151, 206, apply=True)
+```
+
+`inspect` localises the visible kink to an exact frame via `max_jerk_frame`;
+`fit_exp` solves `y(u) = A*exp(k*u) + B` through three anchor frames and writes
+an exact five-key ease with analytic tangent handles. Measured on a real camera
+channel: `max_jerk` 0.0386 → 0.0165, monotonic, no overshoot, fully editable.
+Every mutating helper defaults to a dry run and is undoable as one chunk.
 
 ## Install
 
@@ -86,8 +109,10 @@ dsh-plugin-maya/
 ├── data/                    Maya 2020 / 2022 / 2025 documentation + MANIFEST.json
 ├── docs/                    design, tool reference, configuration, data
 ├── scripts/                 sync-docs · install-skills · enable · link-dsh-modules
+│   └── anim_curve_tool.py   animation-curve inspector + exponential-fit reshaper
 ├── examples/                walk-scene.mjs · edit-scene.mjs (standalone, no DSH host)
 ├── test/smoke.mjs           integration test (real Cordis + real tool registry)
+├── test/anim_curve_tool_test.py   mayapy test for the animation curve tool
 └── .github/workflows/ci.yml
 ```
 

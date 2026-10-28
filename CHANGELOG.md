@@ -4,6 +4,34 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [semantic versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.0] - 2026-10-28
+
+### Added
+
+- **`scripts/anim_curve_tool.py`** — a dependency-free animation-curve inspector
+  and reshaper, runnable in the Script Editor, via `maya_cmd`, or under `mayapy`:
+  - `inspect()` reports per channel: key count, tangent types and angles,
+    negative-velocity frames (bounce), overshoot frames, speed dips, and
+    `max_jerk` with the frame it occurs on — which is where a visible hard turn
+    actually comes from.
+  - `fit_exp(attr, first, mid, last)` solves `y(u) = A*exp(k*u) + B` through
+    three anchor frames and rewrites the channel as a five-key exponential ease
+    with analytic tangent handles (C1 continuous, no segment seams). Measured on
+    a real camera channel: `max_jerk` 0.0386 → 0.0165, monotonic, no overshoot.
+  - `unflatten_ends(attr, limit_deg=1.0)` gives a channel's first/last tangent a
+    small nonzero angle, where `auto`/`spline`/`clamped` pin the endpoints to
+    exactly 0 degrees.
+  - Every mutating helper defaults to a dry run, is undoable as one chunk, and
+    never touches first/last key values unless asked.
+- **`skills/maya-anim-curve-diagnostics`** — the method around the tool: what
+  each symptom means, the verified gotchas (clamped pins entry to 0°, moving keys
+  cannot fix a value-driven bounce, one tangent angle bends the segment before
+  it), and the five-keys-beat-per-frame-baking result.
+- **`test/anim_curve_tool_test.py`** — real `mayapy` end-to-end test: builds a
+  stiff curve, checks the diagnosis, proves the dry run mutates nothing, applies
+  the fit, and asserts monotonicity, preserved anchor values, tangent types and a
+  lower `max_jerk`.
+
 ## [0.2.0] - 2026-09-09
 
 ### Added
