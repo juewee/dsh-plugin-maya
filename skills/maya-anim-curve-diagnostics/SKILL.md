@@ -40,6 +40,38 @@ Read the report:
 acceleration discontinuity at that frame, not a keyframe that is "too far
 apart".
 
+### The algorithm sees what the viewport cannot
+
+The Graph Editor shows curves at whatever zoom the user happens to be at. A
+small bounce — a few hundredths of a unit reversing direction for a few frames —
+is invisible at default zoom, and at high zoom the tangent handles are
+themselves visually distorted (controls that look like they rotate a lot barely
+change their value). Do not trust the eye for this.
+
+`inspect()` works on per-frame values (`v[i] - v[i-1]` sign changes), so it is
+completely independent of viewport scale and catches reversals of any
+amplitude. **That is what this tool is for: it is the measuring instrument, not
+the viewport.**
+
+### …but detection is not repair
+
+A detected defect does not imply an automatic fix. On a real camera channel this
+session measured `max_jerk 0.0386 @f182` and five different automatic repairs
+made it **worse** — nudging a tangent angle, inserting a bridging key, baking to
+per-frame linear, low-pass filtering the acceleration, and re-deriving the tail
+from the mid anchor. Only re-solving the whole channel as an exponential worked.
+
+So:
+
+1. `inspect()` to find the defect and get the number.
+2. Make **one** change.
+3. `inspect()` again and compare `max_jerk` before/after.
+4. If it got worse, **roll back** and try a different approach. Do not stack
+   fixes.
+
+Report the before/after numbers, and say plainly when an attempt failed.
+
+
 ## Step 2 — know what causes each symptom
 
 Verified against real scenes in Maya 2022:
@@ -124,3 +156,10 @@ with. Report both numbers to the user — they are the evidence.
 4. Never save the user's scene for them.
 5. Report measured before/after numbers, and say plainly when an attempt did
    not improve things and was rolled back.
+6. **One change, then re-measure.** Stacking fixes without re-running `inspect`
+   is how a "repair" turns a 0.0386 jerk into a 0.43 one. If `max_jerk` rose,
+   roll back instead of patching the patch.
+7. **Trust the numbers over the viewport** for bounce and overshoot: small
+   reversals are invisible at working zoom. Trust the viewport for how the move
+   *reads* — the algorithm cannot tell you whether a smooth curve is the right
+   performance.
